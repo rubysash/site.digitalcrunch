@@ -16,14 +16,25 @@
   weight = 5
 
 [[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  identifier = "Contact"
+  pre = "email"
+  url = "https://jamesfraze.com"
+  weight = 200
+
+[[main]]
   name = "Tools"
   pageRef = "tools"
   weight = 15
 
 [[main]]
-  identifier = "twitter"
+  identifier = "x"
   pre = "x-twitter"
-  url = "https://twitter.com/frazemarketing"
+  url = "https://x.com/frazemarketing"
   weight = 200
 
 [[main]]
