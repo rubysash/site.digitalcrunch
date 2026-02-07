@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-label="Seal of approval">
+  <defs>
+    <style>
+      /* Theme palette
+         #0E1219 Obsidian
+         #1E293A Charcoal
+         #2A374E Gunmetal
+         #32475C Slate
+         #5A7D8A Steel
+         #839FAD Pewter
+         #1E3A5F Navy
+         #1E3A8A Cobalt
+         #439CF4 Azure
+         #00FF44 Electric Green
+         #FFF8C5 Buttercream
+         #FFFFFF White
+      */
+
+      .ringOuter { fill: #1E293A; stroke: #439CF4; stroke-width: 10; }
+      .ringInner { fill: #0E1219; stroke: #32475C; stroke-width: 6; opacity: 0.95; }
+
+      .ribbon { fill: #1E3A5F; stroke: #1E3A8A; stroke-width: 6; }
+      .ribbonShadow { fill: #0E1219; opacity: 0.45; }
+
+      .star { fill: #FFF8C5; opacity: 0.95; }
+      .tickCircle { fill: none; stroke: #00FF44; stroke-width: 14; }
+      .tick { fill: none; stroke: #00FF44; stroke-width: 22; stroke-linecap: round; stroke-linejoin: round; }
+
+      .title { fill: #FFFFFF; font: 800 56px system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; letter-spacing: 2px; }
+      .sub { fill: #839FAD; font: 600 18px system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; letter-spacing: 3px; }
+      .arcText { fill: #FFF8C5; font: 700 20px system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; letter-spacing: 4px; }
+      .micro { fill: #839FAD; font: 600 14px system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; letter-spacing: 2px; }
+    </style>
+
+    <!-- Gentle inner glow -->
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#439CF4" stop-opacity="0.25"/>
+      <stop offset="55%" stop-color="#439CF4" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#439CF4" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Text paths -->
+    <path id="topArc" d="M 140 360 A 220 220 0 0 1 580 360" />
+    <path id="botArc" d="M 580 360 A 220 220 0 0 1 140 360" />
+  </defs>
+
+  <!-- Transparent background by default (no background rect) -->
+
+  <!-- Ribbon shadow (under) -->
+  <path class="ribbonShadow" d="M168 520 L260 466 L320 520 L320 684 L244 648 L168 684 Z"/>
+  <path class="ribbonShadow" d="M552 520 L460 466 L400 520 L400 684 L476 648 L552 684 Z"/>
+
+  <!-- Ribbon -->
+  <path class="ribbon" d="M160 512 L260 458 L332 520 L332 690 L246 650 L160 690 Z"/>
+  <path class="ribbon" d="M560 512 L460 458 L388 520 L388 690 L474 650 L560 690 Z"/>
+
+  <!-- Outer ring -->
+  <circle class="ringOuter" cx="360" cy="340" r="260"/>
+
+  <!-- Glow overlay -->
+  <circle cx="360" cy="330" r="235" fill="url(#glow)"/>
+
+  <!-- Inner ring -->
+  <circle class="ringInner" cx="360" cy="340" r="210"/>
+
+  <!-- Stars (left/right) -->
+  <g transform="translate(360 340)">
+    <g transform="rotate(-20) translate(-190 -8)">
+      <path class="star" d="M20 0 L25 14 L40 15 L28 24 L32 38 L20 30 L8 38 L12 24 L0 15 L15 14 Z"/>
+    </g>
+    <g transform="rotate(20) translate(150 -8)">
+      <path class="star" d="M20 0 L25 14 L40 15 L28 24 L32 38 L20 30 L8 38 L12 24 L0 15 L15 14 Z"/>
+    </g>
+  </g>
+
+  <!-- Arc text -->
+  <text class="arcText">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">SEAL OF APPROVAL</textPath>
+  </text>
+
+  <text class="micro">
+    <textPath href="#botArc" startOffset="50%" text-anchor="middle">VERIFIED QUALITY</textPath>
+  </text>
+
+  <!-- Center check mark badge -->
+  <circle class="tickCircle" cx="360" cy="340" r="92"/>
+  <path class="tick" d="M318 342 L348 372 L410 302"/>
+
+  <!-- Center title -->
+  <text class="title" x="360" y="455" text-anchor="middle">APPROVED</text>
+  <text class="sub" x="360" y="488" text-anchor="middle">DARK THEME</text>
+</svg>
