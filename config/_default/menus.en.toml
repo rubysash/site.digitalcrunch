@@ -15,12 +15,6 @@
   pageRef = "services"
   weight = 5
 
-
-[[main]]
-  name = "Docs"
-  pageRef = "docs"
-  weight = 10
-
 [[main]]
   name = "Tools"
   pageRef = "tools"
