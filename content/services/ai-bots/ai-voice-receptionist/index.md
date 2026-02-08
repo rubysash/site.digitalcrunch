@@ -1,5 +1,5 @@
 ---
-title: "AI Voice Receptionist Demo"
+title: "AI Voice Receptionist"
 description: "Experience the AI agent that answers calls, qualifies leads, and books appointments 24/7."
 layout: "full"
 ---
