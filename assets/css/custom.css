@@ -547,3 +547,32 @@ nav.toc .toc-tracker:has(#TableOfContents > ul > li > ul > li > a[aria-current="
     max-width: 520px;
   }
 }
+/* buttons */
+  .cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    background-color: #439CF4; /* Azure */
+    color: #FFFFFF !important; /* White text for contrast */
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  .cta-button:hover {
+    background-color: #2A374E; /* Gunmetal */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+
+  .cta-button svg {
+    height: 1.2em;
+    width: 1.2em;
+    margin-right: 12px;
+    fill: currentColor;
+  }
