@@ -1,6 +1,6 @@
 /* Tracer Engine v6.7 - Hardened for Blowfish */
 const viewport = document.getElementById('viewport'), world = document.getElementById('world'), bgLayer = document.getElementById('bg-layer');
-const tracedPath = document.getElementById('traced-path'), nodeMarkers = document.getElementById('node-markers'), output = document.getElementById('svg-output'), svgInput = document.getElementById('svg-input');
+const tracedPath = document.getElementById('traced-path'), nodeMarkers = document.getElementById('node-markers'), svgOutput = document.getElementById('svg-output'), svgInput = document.getElementById('svg-input');
 
 let points = [], scale = 1, panX = 0, panY = 0, isPanning = false, draggedNodeIndex = null;
 
@@ -29,7 +29,8 @@ viewport.addEventListener('mousedown', e => {
 
 window.addEventListener('mousemove', e => {
     const coord = getWorldCoords(e);
-    document.getElementById('coord-pill').innerText = `X: ${Math.round(coord.x)}, Y: ${Math.round(coord.y)}`;
+    const coordPill = document.getElementById('coord-pill');
+    if (coordPill) coordPill.innerText = `X: ${Math.round(coord.x)}, Y: ${Math.round(coord.y)}`;
     if(isPanning && e.buttons === 1) { panX += e.movementX; panY += e.movementY; updateTransform(); } 
     else if (draggedNodeIndex !== null) { points[draggedNodeIndex] = coord; updateDraw(); }
 });
@@ -45,14 +46,14 @@ function updateTransform() { world.style.transform = `translate(${panX}px, ${pan
 
 function updateDraw() {
     nodeMarkers.innerHTML = "";
-    if (!points.length) { tracedPath.setAttribute('d', ''); output.value = ''; return; }
+    if (!points.length) { tracedPath.setAttribute('d', ''); svgOutput.value = ''; return; }
     points.forEach((p, i) => {
         const c = document.createElementNS("http://www.w3.org/2000/svg", "circle");
         c.setAttribute("cx", p.x); c.setAttribute("cy", p.y); c.setAttribute("r", 5);
         c.setAttribute("class", "node"); c.dataset.index = i; nodeMarkers.appendChild(c);
     });
     const d = (document.getElementById('smooth-toggle').checked && points.length >= 3) ? solve(points) : `M ${points[0].x} ${points[0].y} ` + points.slice(1).map(p => `L ${p.x} ${p.y}`).join(' ');
-    tracedPath.setAttribute('d', d); output.value = d;
+    tracedPath.setAttribute('d', d); svgOutput.value = d;
 }
 
 function solve(data) {
@@ -69,10 +70,10 @@ function solve(data) {
 
 window.undo = function() { points.pop(); updateDraw(); };
 window.clearCanvas = function() { points = []; updateDraw(); };
-window.copyOutput = function() { output.select(); document.execCommand('copy'); };
+window.copyOutput = function() { svgOutput.select(); document.execCommand('copy'); };
 window.renderTextAsBG = function() { bgLayer.innerHTML = svgInput.value; };
 window.parseManualInput = function() {
-    const coords = output.value.match(/-?\d+(\.\d+)?/g);
+    const coords = svgOutput.value.match(/-?\d+(\.\d+)?/g);
     if (!coords) return; points = [];
     for (let i = 0; i < coords.length; i += 2) if(coords[i+1]) points.push({ x: parseFloat(coords[i]), y: parseFloat(coords[i+1]) });
     updateDraw();

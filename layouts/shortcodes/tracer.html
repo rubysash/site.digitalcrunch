@@ -1,7 +1,6 @@
 {{ $css := resources.Get "css/tracer.css" | minify | fingerprint }}
 {{ $js := resources.Get "js/tracer.js" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-
 <div id="tracer-root">
     <div id="ribbon">
         <div class="group">
@@ -25,7 +24,7 @@
             <textarea id="svg-input"></textarea>
             <button onclick="renderTextAsBG()">Render</button>
         </div>
-        <div style="font-size: 0.7em; color: #666; margin-left: auto;">Space+Drag: Pan | Scroll: Zoom</div>
+        <span id="coord-pill" style="font-size: 0.7em; color: #666; margin-left: auto;">X: 0, Y: 0</span>
     </div>
     <div id="viewport">
         <div id="world">
