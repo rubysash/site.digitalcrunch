@@ -1,9 +1,30 @@
 {{ define "main" }}
   <h1 class="mb-3 text-4xl font-extrabold">{{ i18n "error.404_title" | emojify }}</h1>
-  <p class="mt-8 mb-12 text-neutral-400 dark:text-neutral-500">
-    {{ i18n "error.404_error" | emojify }}
-  </p>
+  
   <div class="prose dark:prose-invert">
-    <p>{{ i18n "error.404_description" | emojify }}</p>
+    <p class="lead">
+      <strong>Error 404: The requested resource has been decommissioned or secured.</strong>
+    </p>
+
+    <p>I’ve owned this domain for over 20 years. In that time, Digital Crunch has evolved alongside the industry:</p>
+    
+    <ul>
+      <li><strong>The Repair Era:</strong> Originally, I was a local expert fixing malware and hardware failures.</li>
+      <li><strong>The Engineering Era:</strong> I transitioned into a professional cybersecurity engineer, implementing risk mitigation for Fortune 100 companies.</li>
+      <li><strong>The AI Era:</strong> Today, I build hardened AI infrastructure and secure business automations.</li>
+    </ul>
+
+    <p>Whatever you were looking for—whether it was a 2005 hardware guide or a 2015 security note—it’s been replaced by something faster, smarter, and significantly more secure.</p>
+
+    <blockquote class="border-l-4 border-primary-500 pl-4">
+      "You aren't lost; you've just reached the edge of a legacy system."
+    </blockquote>
+
+    <h3>How to proceed:</h3>
+    <p>
+      * Use the <strong>Search Icon</strong> at the top to find my current technical grimoire.<br>
+      * Browse my <strong>AI Implementation Services</strong> in the navigation.<br>
+      * Or, return to the <a href="/">Homepage</a> to see what I'm building today.
+    </p>
   </div>
 {{ end }}
