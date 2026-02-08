@@ -3,6 +3,7 @@ title: "Case Study: Lead Generation + Email Follow up"
 description: "Case Study: Lead Generation Funnel for Decisive Insurance"
 tags: ["Email Marketing"]
 showTableOfContents: true
+draft: true
 ---
 
 ## Overview

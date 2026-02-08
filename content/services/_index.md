@@ -3,4 +3,4 @@ title: "Services"
 description: "Description placeholder"
 ---
 
-Various Services we provide
+Introduction to the services we provide for you.
