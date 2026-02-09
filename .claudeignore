@@ -1,0 +1,54 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# Theme assets you don't need Claude reading
+themes/*/assets/js/vendor/
+themes/*/static/fonts/
+themes/*/static/images/
+themes/*/node_modules/
+
+# Binary/media files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.webp
+*.mp4
+*.woff
+*.woff2
+*.ttf
+*.eot
+*.pdf
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Git and OS
+.git/
+.DS_Store
+.hugo_build.lock
+
+# Caches
+.cache/
+tmp/
+
+# Theme (comment out for help with theme)
+themes/*/
+themes/blowfish/exampleSite/
+themes/blowfish/assets/lib/
+themes/blowfish/assets/js/vendor/
+themes/blowfish/static/
+themes/blowfish/images/
+themes/blowfish/i18n/
+themes/blowfish/node_modules/
+themes/blowfish/.github/
+themes/blowfish/package*.json
+themes/blowfish/tailwind.config.js
+themes/blowfish/postcss.config.js
+themes/blowfish/LICENSE
+themes/blowfish/README.md
+themes/blowfish/CHANGELOG.md

@@ -33,4 +33,4 @@ Most web browsers automatically accept cookies but provide controls that allow y
 We may update this Cookie Policy from time to time to reflect changes in the technologies we use or in applicable regulations. Any changes will be posted on this page with an updated effective date.
 
 ## 7. Contact
-If you have questions about our use of cookies, please contact us via the contact methods provided on our About page.
+If you have questions about our use of cookies, please contact us.

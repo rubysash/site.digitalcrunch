@@ -75,20 +75,20 @@
  [[footer]]
    name = "Privacy Policy"
    pageRef = "privacy-policy"
-   weight = 25
+   weight = 30
 
  [[footer]]
    name = "Accessibility"
    pageRef = "accessibility"
-   weight = 15
+   weight = 40
 
  [[footer]]
    name = "Cookie Policy"
    pageRef = "cookie-policy"
-   weight = 20
+   weight = 50
 
 
  [[footer]]
    name = "Terms of Service"
    pageRef = "terms-of-service"
-   weight = 30
+   weight = 60

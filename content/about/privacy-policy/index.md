@@ -32,4 +32,4 @@ If you provide your mobile number, you agree to receive automated text messages 
 We do not sell or rent your personal data. We disclose information only to our service providers (Google, Netlify, GHL) to the extent necessary to operate the site.
 
 ## 7. Contact Us
-For privacy inquiries, please use the contact form on our website.
+For privacy inquiries, please contact us.

@@ -1,1 +1,5 @@
 public/
+
+# recommended by claude to conserve tokens
+resources/_gen/
+.hugo_build.lock
