@@ -16,39 +16,76 @@
   weight = 5
 
 [[main]]
+  name = "AI Bots"
+  parent = "Services"
+  pageRef = "ai-bots"
+  weight = 16
+
+
+[[main]]
   name = "About"
   pageRef = "about"
   weight = 10
 
 [[main]]
-  identifier = "Contact"
-  pre = "email"
-  url = "https://jamesfraze.com"
-  weight = 200
+  name = "Accessibility"
+  parent = "About"
+  pageRef = "accessibility"
+  weight = 20
+
+[[main]]
+  name = "Accessibility"
+  parent = "About"
+  pageRef = "accessibility"
+  weight = 15
+
+[[main]]
+  name = "Cookie Policy"
+  parent = "About"
+  pageRef = "cookie-policy"
+  weight = 20
+
+[[main]]
+  name = "Privacy Policy"
+  parent = "About"
+  pageRef = "privacy-policy"
+  weight = 25
+
+[[main]]
+  name = "Terms of Service"
+  parent = "About"
+  pageRef = "terms-of-service"
+  weight = 30
+
+[[main]]
+  identifier = "contact"
+  pre = "phone"
+  url = "tel:+19452454257"
+  weight = 50
 
 [[main]]
   name = "Tools"
   pageRef = "tools"
   weight = 15
 
-[[main]]
-  identifier = "x"
-  pre = "x-twitter"
-  url = "https://x.com/frazemarketing"
-  weight = 200
+#[[main]]
+#  identifier = "x"
+#  pre = "x-twitter"
+#  url = "https://x.com/frazemarketing"
+#  weight = 200
 
-[[main]]
-  identifier = "instagram"
-  pre = "instagram"
-  weight = 300
-  url = "https://instagram.com/frazemarketing"
+#[[main]]
+#  identifier = "instagram"
+#  pre = "instagram"
+#  weight = 300
+#  url = "https://instagram.com/frazemarketing"
 
 
-[[main]]
-  identifier = "linkedin"
-  pre = "linkedin"
-  url = "https://linkedin.com/in/digitalcrunch"
-  weight = 400
+#[[main]]
+#  identifier = "linkedin"
+#  pre = "linkedin"
+#  url = "https://linkedin.com/in/digitalcrunch"
+# weight = 400
 
 
 # -- Footer Menu --
