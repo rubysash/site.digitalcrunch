@@ -47,6 +47,21 @@
       </p>
     {{ end }}
 
+
+  <address class="not-italic text-sm text-neutral-500 dark:text-neutral-400" itemscope itemtype="https://schema.org/LocalBusiness">
+    <span itemprop="name">Fraze Marketing</span> &middot;
+    <a href="https://maps.google.com/?q=2042+Quail+Run+Rd+Wylie+TX+75098"
+       target="_blank"
+       rel="noopener"
+       itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"
+       class="hover:text-primary-500 transition-colors">
+      <span itemprop="streetAddress">2042 Quail Run Rd</span>,
+      <span itemprop="addressLocality">Wylie</span>,
+      <span itemprop="addressRegion">TX</span>
+      <span itemprop="postalCode">75098</span>
+    </a>
+  </address>
+    
     {{/* Theme attribution */}}
     {{ if .Site.Params.footer.showThemeAttribution | default true }}
       <p class="text-xs text-neutral-500 dark:text-neutral-400">
