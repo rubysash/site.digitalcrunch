@@ -9,7 +9,12 @@ tags: ["services","ai-voice"]
 showReadingTime: false
 showWordCount: false
 showSummary: true
-summary: "- Inbound voice AI\n- Web chat widgets\n- SMS & social DM bots"
+summary: |
+ - Inbound voice AI
+ - Multiple Languages
+ - Answers Basic Questions
+ - Book on Calendar
+ - Operates 24x7 for pennies
 ---
 
 # Never Miss Another Lead
