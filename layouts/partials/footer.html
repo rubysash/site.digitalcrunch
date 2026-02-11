@@ -1,0 +1,91 @@
+<footer id="site-footer" class="py-10 print:hidden">
+  {{/* Footer menu - legal/policy links, centered */}}
+  {{ if .Site.Params.footer.showMenu | default true }}
+    {{ if .Site.Menus.footer }}
+      <nav class="flex justify-center pb-6 text-sm font-medium text-neutral-500 dark:text-neutral-400">
+        <ul class="flex flex-wrap justify-center list-none gap-x-6 gap-y-2">
+          {{ range .Site.Menus.footer }}
+            <li>
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href="{{ .URL }}"
+                title="{{ .Title }}">
+                {{ if .Pre }}
+                  <span {{ if and .Pre .Name }}class="mr-1"{{ end }}>
+                    {{ partial "icon.html" .Pre }}
+                  </span>
+                {{ end }}
+                {{ .Name | markdownify }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </nav>
+    {{ end }}
+  {{ end }}
+
+  {{/* Combined NAP + copyright block, centered */}}
+  <div class="text-center text-sm text-neutral-500 dark:text-neutral-400"
+       itemscope itemtype="https://schema.org/ProfessionalService">
+
+    <a href="https://digitalcrunch.com" itemprop="url" class="hidden">Digital Crunch</a>
+
+    <p>
+      &copy; {{ now.Format "2006" }}
+      <span itemprop="name">Digital Crunch</span> &middot;
+      <a href="https://www.google.com/maps/search/?api=1&query=2042+Quail+Run+Rd+Wylie+TX+75098"
+         target="_blank"
+         rel="noopener"
+         itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"
+         class="hover:text-primary-500 transition-colors">
+        <span itemprop="streetAddress">2042 Quail Run Rd</span>,
+        <span itemprop="addressLocality">Wylie</span>,
+        <span itemprop="addressRegion">TX</span>
+        <span itemprop="postalCode">75098</span>
+      </a> &middot;
+      <a href="tel:+19452454257"
+         itemprop="telephone"
+         class="hover:text-primary-500 transition-colors">
+        (945) 245-4257
+      </a>
+    </p>
+
+    <p class="mt-1 text-xs">
+      <time itemprop="openingHours" datetime="Mo-Fr 09:00-17:00">Mon&ndash;Fri 9am&ndash;5pm</time> &middot;
+      <time itemprop="openingHours" datetime="Sa 08:00-13:00">Sat 8am&ndash;1pm</time>
+    </p>
+  </div>
+
+  {{/* Theme attribution */}}
+  {{ if .Site.Params.footer.showThemeAttribution | default true }}
+    <p class="text-center text-xs text-neutral-500 dark:text-neutral-400 mt-4">
+      {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
+      }}
+      {{ $blowfish := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>`
+      }}
+      {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Theme" $blowfish) | safeHTML }}
+    </p>
+  {{ end }}
+
+  {{ if not .Site.Params.disableImageZoom | default true }}
+    <script>
+      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+        margin: 24,
+        background: "rgba(0,0,0,0.5)",
+        scrollOffset: 0,
+      });
+    </script>
+  {{ end }}
+  {{ $jsProcess := resources.Get "js/process.js" }}
+  {{ $jsProcess = $jsProcess | resources.Minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
+  <script
+    type="text/javascript"
+    src="{{ $jsProcess.RelPermalink }}"
+    integrity="{{ $jsProcess.Data.Integrity }}"></script>
+  {{/* Extend footer - eg. for extra scripts, etc. */}}
+  {{ if templates.Exists "partials/extend-footer.html" }}
+    {{ partialCached "extend-footer.html" . }}
+  {{ end }}
+</footer>
