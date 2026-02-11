@@ -6,6 +6,10 @@ showAuthor: false
 authors:
  - "jamesfraze"
 tags: ["services","ai-voice"]
+showReadingTime: false
+showWordCount: false
+showSummary: true
+summary: "- Inbound voice AI\n- Web chat widgets\n- SMS & social DM bots"
 ---
 
 # Never Miss Another Lead

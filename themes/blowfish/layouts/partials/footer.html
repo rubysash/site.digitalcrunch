@@ -48,24 +48,33 @@
     {{ end }}
 
 
-  <address class="not-italic text-sm text-neutral-500 dark:text-neutral-400" itemscope itemtype="https://schema.org/LocalBusiness">
-    <span itemprop="name">Fraze Marketing</span> &middot;
-    <a href="https://maps.google.com/?q=2042+Quail+Run+Rd+Wylie+TX+75098"
-      target="_blank"
-      rel="noopener"
-      itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"
-      class="hover:text-primary-500 transition-colors">
-      <span itemprop="streetAddress">2042 Quail Run Rd</span>,
-      <span itemprop="addressLocality">Wylie</span>,
-      <span itemprop="addressRegion">TX</span>
-      <span itemprop="postalCode">75098</span>
-    </a> &middot;
-    <a href="tel:+19452454257"
-      itemprop="telephone"
-      class="hover:text-primary-500 transition-colors">
-      (945) 245-4257
-    </a>
-  </address>
+<address class="not-italic text-sm text-neutral-500 dark:text-neutral-400" itemscope itemtype="[https://schema.org/ProfessionalService](https://schema.org/ProfessionalService)">
+  <span itemprop="name">Digital Crunch</span> ·
+  
+  <a href="[https://digitalcrunch.com](https://digitalcrunch.com)" itemprop="url" class="hidden">Digital Crunch</a>
+
+  <a href="[https://www.google.com/maps/search/?api=1&query=2042+Quail+Run+Rd+Wylie+TX+75098](https://www.google.com/maps/search/?api=1&query=2042+Quail+Run+Rd+Wylie+TX+75098)"
+     target="_blank"
+     rel="noopener"
+     itemprop="address" itemscope itemtype="[https://schema.org/PostalAddress](https://schema.org/PostalAddress)"
+     class="hover:text-primary-500 transition-colors">
+    <span itemprop="streetAddress">2042 Quail Run Rd</span>,
+    <span itemprop="addressLocality">Wylie</span>,
+    <span itemprop="addressRegion">TX</span>
+    <span itemprop="postalCode">75098</span>
+  </a> ·
+
+  <a href="tel:+19452454257"
+     itemprop="telephone"
+     class="hover:text-primary-500 transition-colors">
+    (945) 245-4257
+  </a>
+
+  <div class="mt-2 text-xs">
+    <time itemprop="openingHours" datetime="Mo-Fr 09:00-17:00">Mon-Fri 9am-5pm</time> · 
+    <time itemprop="openingHours" datetime="Sa 08:00-13:00">Sat 8am-1pm</time>
+  </div>
+</address>
     
     {{/* Theme attribution */}}
     {{ if .Site.Params.footer.showThemeAttribution | default true }}
