@@ -10,33 +10,72 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-  name = "Services"
-  pageRef = "services"
-  weight = 5
-
-[[main]]
-  name = "AI Bots"
-  parent = "Services"
-  pageRef = "ai-bots"
-  weight = 16
-
-[[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 10
-
+#--------
+# 10
+#--------
 [[main]]
   identifier = "contact"
   name = "(945) 245-4257 "
   pre = "phone"
   url = "tel:+19452454257"
-  weight = 50
+  weight = 10
 
+#--------
+# 20
+#--------
+[[main]]
+  name = "Services"
+  pageRef = "services"
+  weight = 20
+
+[[main]]
+  name = "AI Bots"
+  parent = "Services"
+  pageRef = "services/ai-bots"
+  weight = 105
+
+[[main]]
+  name = "AI Search"
+  parent = "Services"
+  pageRef = "services/schema-validation"
+  weight = 110
+
+#--------
+# 30
+#--------
+[[main]]
+  name = "Research"
+  pageRef = "research"
+  weight = 30
+
+[[main]]
+  name = "Schema"
+  parent = "Research"
+  pageRef = "research/schema"
+  weight = 10
+
+
+#--------
+# 40
+#--------
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 40
+
+#--------
+# 50
+#--------
 [[main]]
   name = "Tools"
   pageRef = "tools"
-  weight = 15
+  weight = 50
+
+
+
+
+
+
 
 #[[main]]
 #  identifier = "x"

@@ -1,0 +1,44 @@
+
+{{ $css := resources.Get "css/status-dashboard.css" | minify | fingerprint }}
+{{ $js := resources.Get "js/status-dashboard.js" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+<div class="status-dashboard">
+  <div class="sd-header">
+    <div class="h-left">
+      <h1><b>▪</b> 100% Uptime?   Maybe Someday, maybe.</h1>
+      <div class="h-sub" id="sd-ts">Initializing...</div>
+    </div>
+    <div class="h-right">
+      <div id="sd-opill" class="pill pill-unk"><div class="blink"></div><span>Loading</span></div>
+      <div class="cd" id="sd-cd">5:00</div>
+    </div>
+  </div>
+
+  <div class="layout">
+    <div class="col" id="sd-col1"></div>
+    <div class="col" id="sd-col2"></div>
+  </div>
+
+  <div class="dns-section">
+    <div class="dns-header">
+      <h2>DNS Resolver Health</h2>
+      <span class="dns-note">— Live DoH probes resolving example.com via each provider</span>
+    </div>
+    <div class="dns-grid" id="sd-dns-grid"></div>
+  </div>
+
+  <div class="manual-section">
+    <div class="manual-header">
+      <h2>Manual Check Only</h2>
+      <span class="manual-note">— No public status API available. Click to check directly.</span>
+    </div>
+    <div class="manual-grid" id="sd-manual-grid"></div>
+  </div>
+</div>
+
+{{ $js := resources.Get "js/status-dashboard.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}"></script>

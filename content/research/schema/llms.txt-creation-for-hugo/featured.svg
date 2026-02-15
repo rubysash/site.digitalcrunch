@@ -1,0 +1,52 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="llmsTitle llmsDesc">
+  <title id="llmsTitle">llms.txt Snippet: Primary AEO Resources</title>
+  <desc id="llmsDesc">A zoomed-in Markdown snippet of the Digital Crunch llms.txt file showing technical implementation guides.</desc>
+  
+  <rect width="100%" height="100%" fill="#1E293A" rx="8"/>
+  
+  <style>
+    .md-text { font-family: 'Courier New', monospace; font-size: 16px; }
+    /* Headers: Azure (#439CF4) */
+    .h2 { fill: #439CF4; font-weight: bold; font-size: 22px; }
+    .h3 { fill: #439CF4; font-weight: bold; font-size: 18px; }
+    /* Links/Bullets: Electric Green (#00FF44) */
+    .link { fill: #00FF44; font-weight: bold; }
+    /* Description/Body: Buttercream (#FFF8C5) */
+    .body { fill: #FFF8C5; }
+    /* Brackets/Operators: Pewter (#839FAD) */
+    .op { fill: #839FAD; }
+  </style>
+
+  <text x="40" y="60" class="md-text">
+    <tspan x="40" dy="1.2em" class="h2">## Primary AEO Resources</tspan>
+    
+    <tspan x="40" dy="1.8em" class="body">These resources are optimized for </tspan>
+    <tspan class="link">RAG</tspan>
+    <tspan class="body"> and contain </tspan>
+    
+    <tspan x="40" dy="1.2em" class="body">structured data for AI citation.</tspan>
+
+    <tspan x="40" dy="2.5em" class="h3">### Technical Implementation Guides</tspan>
+    
+    <tspan x="40" dy="1.8em" class="op">- [</tspan>
+    <tspan class="link">Schema Implementation</tspan>
+    <tspan class="op">]</tspan>
+    <tspan class="body">: Definitive guide on </tspan>
+    
+    <tspan x="65" dy="1.2em" class="body">using JSON-LD for local business trust signals.</tspan>
+
+    <tspan x="40" dy="1.8em" class="op">- [</tspan>
+    <tspan class="link">What is llms.txt?</tspan>
+    <tspan class="op">]</tspan>
+    <tspan class="body">: A Roadmap for AI </tspan>
+    
+    <tspan x="65" dy="1.2em" class="body">Indexability and Answer Engine Optimization.</tspan>
+
+    <tspan x="40" dy="1.8em" class="op">- [</tspan>
+    <tspan class="link">AI Voice Receptionist</tspan>
+    <tspan class="op">]</tspan>
+    <tspan class="body">: Technical breakdown </tspan>
+    
+    <tspan x="65" dy="1.2em" class="body">of Arabella, the Digital Crunch assistant.</tspan>
+  </text>
+</svg>

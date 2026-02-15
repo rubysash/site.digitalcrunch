@@ -30,7 +30,7 @@ or
 Use the cooridinates, along with your LLM of choice, to animate pulses by giving it your base image and the path like this:
 
 ```
-Use is SVG file (attached) and these cooridinates (paste your cooridinates), to create an animated SVG file with a blue pulse along this line.
+Use this SVG file (attached) and these cooridinates (paste your cooridinates), to create an animated SVG file with a blue pulse along this line.
 ```   
 
 The LLM will know the code of your SVG, and the code of your path and can easily animate pulses.  Keep modifying it with the design you are creating using this method. 

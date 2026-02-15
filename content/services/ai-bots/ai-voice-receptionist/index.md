@@ -6,7 +6,7 @@ showAuthor: false
 showTableOfContents: false
 authors:
  - "jamesfraze"
-tags: ["services","ai-voice"]
+tags: ["services","ai-voice-receptionist"]
 showReadingTime: false
 showWordCount: false
 showSummary: true

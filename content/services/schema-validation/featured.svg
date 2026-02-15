@@ -1,0 +1,36 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svgTitle svgDesc">
+  <title id="svgTitle">Digital Crunch Schema Snippet</title>
+  <desc id="svgDesc">JSON-LD schema code snippet for Digital Crunch ProfessionalService entity.</desc>
+  
+  <rect width="100%" height="100%" fill="#1E293A" rx="8"/>
+  
+  <style>
+    .code { font-family: 'Courier New', monospace; font-size: 14px; }
+    /* JSON Keys: Electric Green (#00FF44) */
+    .key { fill: #00FF44; font-weight: bold; }
+    /* JSON Values: Buttercream (#FFF8C5) */
+    .val { fill: #FFF8C5; }
+    /* Brackets/Syntax: Azure (#439CF4) */
+    .syn { fill: #439CF4; }
+  </style>
+
+  <text x="30" y="50" class="code">
+    <tspan x="30" dy="1.2em" class="syn">{</tspan>
+    <tspan x="50" dy="1.5em"><tspan class="key">"@context"</tspan><tspan class="syn">:</tspan> <tspan class="val">"https://schema.org"</tspan><tspan class="syn">,</tspan></tspan>
+    <tspan x="50" dy="1.5em"><tspan class="key">"@type"</tspan><tspan class="syn">:</tspan> <tspan class="val">"ProfessionalService"</tspan><tspan class="syn">,</tspan></tspan>
+    <tspan x="50" dy="1.5em"><tspan class="key">"@id"</tspan><tspan class="syn">:</tspan> <tspan class="val">"https://digitalcrunch.com/#organization"</tspan><tspan class="syn">,</tspan></tspan>
+    <tspan x="50" dy="1.5em"><tspan class="key">"name"</tspan><tspan class="syn">:</tspan> <tspan class="val">"Digital Crunch"</tspan><tspan class="syn">,</tspan></tspan>
+    <tspan x="50" dy="1.5em"><tspan class="key">"legalName"</tspan><tspan class="syn">:</tspan> <tspan class="val">"James Fraze LLC"</tspan><tspan class="syn">,</tspan></tspan>
+    <tspan x="50" dy="1.5em"><tspan class="key">"url"</tspan><tspan class="syn">:</tspan> <tspan class="val">"https://digitalcrunch.com"</tspan><tspan class="syn">,</tspan></tspan>
+    <tspan x="50" dy="1.5em"><tspan class="key">"telephone"</tspan><tspan class="syn">:</tspan> <tspan class="val">"+19452454257"</tspan><tspan class="syn">,</tspan></tspan>
+    <tspan x="50" dy="1.5em"><tspan class="key">"address"</tspan><tspan class="syn">: {</tspan></tspan>
+    <tspan x="70" dy="1.5em"><tspan class="key">"addressLocality"</tspan><tspan class="syn">:</tspan> <tspan class="val">"Wylie"</tspan><tspan class="syn">,</tspan></tspan>
+    <tspan x="70" dy="1.5em"><tspan class="key">"addressRegion"</tspan><tspan class="syn">:</tspan> <tspan class="val">"TX"</tspan></tspan>
+    <tspan x="50" dy="1.5em" class="syn">},</tspan>
+    <tspan x="50" dy="1.5em"><tspan class="key">"sameAs"</tspan><tspan class="syn">: [</tspan></tspan>
+    <tspan x="70" dy="1.5em" class="val">"https://linkedin.com/in/digitalcrunch"</tspan><tspan class="syn">,</tspan>
+    <tspan x="70" dy="1.5em" class="val">"https://github.com/rubysash"</tspan>
+    <tspan x="50" dy="1.5em" class="syn">]</tspan>
+    <tspan x="30" dy="1.5em" class="syn">}</tspan>
+  </text>
+</svg>

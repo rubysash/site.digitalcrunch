@@ -1,0 +1,102 @@
+<svg width="1000" height="500" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svgTitle svgDesc">
+  <title id="svgTitle">Schema Implementation Workflow for Hugo</title>
+  <desc id="svgDesc">A six-step technical workflow for schema markup within a Hugo-based static site generator environment, featuring high-contrast colors for dark mode.</desc>
+
+  <rect x="0" y="0" width="495" height="500" rx="12" fill="#0E1219" stroke="#1E293A" stroke-width="2"/>
+  <rect x="505" y="0" width="495" height="500" rx="12" fill="#1E293A" stroke="#2A374E" stroke-width="2"/>
+
+  <g aria-level="1" role="heading">
+    <text x="30" y="45" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#439CF4">Phase 1: Preparation &amp; Code Generation</text>
+    <text x="535" y="45" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#439CF4">Phase 2: Installation &amp; Validation</text>
+  </g>
+
+  <g transform="translate(50, 90)" role="group" aria-label="Step 1: Identify Your Entity and Properties">
+    <title>Entity Identification</title>
+    <path d="M15 0 H65 L85 25 V120 H15 Z" fill="#1E3A8A" />
+    <circle cx="65" cy="30" r="8" fill="#0E1219" />
+    <text x="42" y="170" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">Identify Your</text>
+    <text x="42" y="195" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">Entity &amp; Properties</text>
+    <text x="42" y="230" text-anchor="middle" font-family="Arial" font-size="14" fill="#839FAD">
+      <tspan x="42" dy="1.2em">Determine if the page</tspan>
+      <tspan x="42" dy="1.2em">represents a "Service,"</tspan>
+      <tspan x="42" dy="1.2em">"LocalBusiness," or</tspan>
+      <tspan x="42" dy="1.2em">"Product" and list key</tspan>
+      <tspan x="42" dy="1.2em">details.</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(200, 90)" role="group" aria-label="Step 2: Generate JSON-LD Code">
+    <title>JSON-LD Generation</title>
+    <circle cx="50" cy="50" r="45" fill="none" stroke="#FFF8C5" stroke-width="5" />
+    <path d="M30 35 L20 50 L30 65 M70 35 L80 50 L70 65" fill="none" stroke="#FFF8C5" stroke-width="4" />
+    <text x="50" y="58" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#439CF4">{ }</text>
+    <text x="50" y="170" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">Generate</text>
+    <text x="50" y="195" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">JSON-LD Code</text>
+    <text x="50" y="230" text-anchor="middle" font-family="Arial" font-size="14" fill="#839FAD">
+      <tspan x="50" dy="1.2em">Use a schema generator</tspan>
+      <tspan x="50" dy="1.2em">or automated script</tspan>
+      <tspan x="50" dy="1.2em">to output the</tspan>
+      <tspan x="50" dy="1.2em">required script block.</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(350, 90)" role="group" aria-label="Step 3: Link to Authority with sameAs">
+    <title>Authority Linking</title>
+    <path d="M30 30 Q10 30 10 50 Q10 70 30 70 L70 70 Q90 70 90 50 Q90 30 70 30 Z" fill="none" stroke="#1E3A8A" stroke-width="8" />
+    <circle cx="85" cy="75" r="20" fill="#1E3A5F" />
+    <path d="M78 75 Q85 65 92 75" fill="none" stroke="#439CF4" stroke-width="2" />
+    <text x="50" y="170" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">Link to Authority</text>
+    <text x="50" y="195" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">with "sameAs"</text>
+    <text x="50" y="230" text-anchor="middle" font-family="Arial" font-size="14" fill="#839FAD">
+      <tspan x="50" dy="1.2em">Include links to your</tspan>
+      <tspan x="50" dy="1.2em">social profiles and</tspan>
+      <tspan x="50" dy="1.2em">Wikipedia/Wikidata to</tspan>
+      <tspan x="50" dy="1.2em">validate your brand</tspan>
+      <tspan x="50" dy="1.2em">identity.</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(545, 90)" role="group" aria-label="Step 4: Hard Code into HTML">
+    <title>Manual Implementation</title>
+    <path d="M10 50 L35 25 M10 50 L35 75 M80 50 L55 25 M80 50 L55 75 M40 85 L60 15" fill="none" stroke="#FFF8C5" stroke-width="8" stroke-linecap="round" />
+    <text x="45" y="170" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">Hard Code</text>
+    <text x="45" y="195" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">into HTML</text>
+    <text x="45" y="230" text-anchor="middle" font-family="Arial" font-size="14" fill="#839FAD">
+      <tspan x="45" dy="1.2em">Paste the code into</tspan>
+      <tspan x="45" dy="1.2em">the &lt;head&gt; or</tspan>
+      <tspan x="45" dy="1.2em">&lt;body&gt; tag; avoid</tspan>
+      <tspan x="45" dy="1.2em">JavaScript-rendered</tspan>
+      <tspan x="45" dy="1.2em">schema.</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(695, 90)" role="group" aria-label="Step 5: Use Hugo Partials">
+    <title>Hugo Implementation</title>
+    <rect x="10" y="20" width="80" height="60" rx="5" fill="none" stroke="#439CF4" stroke-width="4" />
+    <line x1="10" y1="35" x2="90" y2="35" stroke="#439CF4" stroke-width="4" />
+    <text x="50" y="60" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#00FF44">HUGO</text>
+    <text x="50" y="170" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">Use Hugo</text>
+    <text x="50" y="195" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">Partials</text>
+    <text x="50" y="230" text-anchor="middle" font-family="Arial" font-size="14" fill="#839FAD">
+      <tspan x="50" dy="1.2em">In Hugo, create a</tspan>
+      <tspan x="50" dy="1.2em">partial template for</tspan>
+      <tspan x="50" dy="1.2em">JSON-LD and include</tspan>
+      <tspan x="50" dy="1.2em">it in your baseof.html</tspan>
+      <tspan x="50" dy="1.2em">template.</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(845, 90)" role="group" aria-label="Step 6: Validate for Zero Errors">
+    <title>Final Validation</title>
+    <path d="M10 50 L40 80 L90 20" fill="none" stroke="#00FF44" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="50" y="170" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">Validate for</text>
+    <text x="50" y="195" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#FFFFFF">"Zero Errors"</text>
+    <text x="50" y="230" text-anchor="middle" font-family="Arial" font-size="14" fill="#839FAD">
+      <tspan x="50" dy="1.2em">Test the live URL</tspan>
+      <tspan x="50" dy="1.2em">using</tspan>
+      <tspan x="50" dy="1.2em">validator.schema.org</tspan>
+      <tspan x="50" dy="1.2em">or Google's Rich</tspan>
+      <tspan x="50" dy="1.2em">Results Test.</tspan>
+    </text>
+  </g>
+</svg>

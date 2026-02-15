@@ -1,6 +1,23 @@
 ---
 title: "AI Bots & Automated Agents"
 description: "Expert implementation of natural language AI bots including Voice Receptionists, SMS agents, and multi-channel chat automation for businesses in Wylie, TX."
+layout: "full"
+showAuthor: false
+showTableOfContents: false
+authors:
+ - "jamesfraze"
+tags: ["services","ai-bots","ai-voice","ai-leadgen","ai-sms","ai-email"]
+showReadingTime: false
+showWordCount: false
+showSummary: true
+summary: |
+ - Inbound Voice Receptionist
+ - Inbound Chat Agent
+ - Outbound AI SMS Leadgen
+ - Outbound AI Voice Leadgen
+ - Outbound AI Email Leadgen
+ - Outbound AI Social Leadgen
+ - AI Bot Automation Workflows
 ---
 
 Digital Crunch engineers custom-built AI Agents designed to handle the high-volume, repetitive interactions that drain your team's resources. We don't just "plug in" a chatbot; we implement logic-driven automated systems that integrate directly with your existing CRM and workflow stack.
