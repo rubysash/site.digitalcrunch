@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="520" viewBox="0 0 1024 520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0E1219"/>
+      <stop offset="1" stop-color="#090C11"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1E293A"/>
+      <stop offset="1" stop-color="#172233"/>
+    </linearGradient>
+
+    <linearGradient id="panel2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A374E"/>
+      <stop offset="1" stop-color="#1E293A"/>
+    </linearGradient>
+
+    <linearGradient id="schemaGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#439CF4" stop-opacity="0.60"/>
+      <stop offset="1" stop-color="#1E3A8A" stop-opacity="0.20"/>
+    </linearGradient>
+
+    <linearGradient id="aiGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1E3A8A" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#439CF4" stop-opacity="0.20"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#839FAD"/>
+    </marker>
+
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#00FF44"/>
+    </marker>
+  </defs>
+
+  <style>
+    .sans { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+
+    .tTitle { fill:#FFFFFF; font-size:18px; font-weight:800; }
+    .tSub { fill:#839FAD; font-size:12px; font-weight:600; }
+
+    .tH { fill:#FFFFFF; font-size:13px; font-weight:800; }
+    .tL { fill:#839FAD; font-size:12px; font-weight:600; }
+    .tM { fill:#FFF8C5; font-size:12px; font-weight:700; }
+
+    .panel { fill:url(#panel); stroke:#2A374E; }
+    .panel2 { fill:url(#panel2); stroke:#32475C; }
+
+    .chip { fill:#0E1219; stroke:rgba(255,255,255,0.14); }
+    .chipText { fill:#FFFFFF; font-size:11px; font-weight:800; }
+
+    .strokeSub { stroke:rgba(255,255,255,0.10); }
+    .strokeDim { stroke:rgba(255,255,255,0.08); }
+
+    .arrow { fill:none; stroke:#839FAD; stroke-width:2.2; marker-end:url(#arrow); }
+    .arrowDot { fill:none; stroke:#839FAD; stroke-width:2.2; stroke-dasharray:4 6; marker-end:url(#arrow); opacity:0.85; }
+
+    .greenLine { fill:none; stroke:#00FF44; stroke-width:2.4; marker-end:url(#arrowGreen); }
+    .greenStroke { stroke:#00FF44; }
+
+    .schemaStroke { stroke:#439CF4; }
+    .aiStroke { stroke:#1E3A8A; }
+
+    .tiny { font-size:10px; font-weight:700; fill:#839FAD; }
+    .monoTiny { font-size:10px; font-weight:700; fill:#839FAD; }
+  </style>
+
+  <rect x="0" y="0" width="1024" height="520" fill="url(#bg)"/>
+
+  <g transform="translate(34,28)">
+    <text class="sans tTitle" x="0" y="0" dominant-baseline="hanging">Schema Research: AI Answer Snippets + SEO</text>
+    <text class="sans tSub" x="0" y="26" dominant-baseline="hanging">Controlled comparison of pages with vs without structured data</text>
+  </g>
+
+  <!-- LEFT: Page + Schema overlay -->
+  <g transform="translate(40,92)" filter="url(#shadow)">
+    <rect class="panel" x="0" y="0" width="310" height="360" rx="16" ry="16"/>
+
+    <!-- Browser chrome -->
+    <rect x="14" y="14" width="282" height="44" rx="12" ry="12" fill="#0E1219" stroke="rgba(255,255,255,0.12)"/>
+    <circle cx="30" cy="36" r="5" fill="rgba(255,255,255,0.15)"/>
+    <circle cx="48" cy="36" r="5" fill="rgba(255,255,255,0.15)"/>
+    <circle cx="66" cy="36" r="5" fill="rgba(255,255,255,0.15)"/>
+    <rect x="90" y="26" width="196" height="20" rx="10" ry="10" fill="#1E293A" stroke="rgba(255,255,255,0.10)"/>
+    <text class="mono" x="102" y="40" fill="#839FAD" font-size="10" font-weight="700">example.com/page</text>
+
+    <text class="sans tH" x="16" y="78">Web Page Content</text>
+    <text class="sans tL" x="16" y="98">Unstructured text, headings, links</text>
+
+    <!-- Content lines -->
+    <g transform="translate(16,120)">
+      <rect x="0" y="0" width="278" height="18" rx="8" fill="#2A374E" opacity="0.80"/>
+      <rect x="0" y="28" width="252" height="12" rx="6" fill="#2A374E" opacity="0.60"/>
+      <rect x="0" y="48" width="268" height="12" rx="6" fill="#2A374E" opacity="0.55"/>
+      <rect x="0" y="68" width="214" height="12" rx="6" fill="#2A374E" opacity="0.55"/>
+      <rect x="0" y="92" width="278" height="18" rx="8" fill="#2A374E" opacity="0.75"/>
+      <rect x="0" y="120" width="244" height="12" rx="6" fill="#2A374E" opacity="0.55"/>
+      <rect x="0" y="140" width="270" height="12" rx="6" fill="#2A374E" opacity="0.50"/>
+      <rect x="0" y="160" width="228" height="12" rx="6" fill="#2A374E" opacity="0.50"/>
+      <rect x="0" y="188" width="278" height="18" rx="8" fill="#2A374E" opacity="0.70"/>
+      <rect x="0" y="216" width="206" height="12" rx="6" fill="#2A374E" opacity="0.50"/>
+    </g>
+
+    <!-- Schema overlay -->
+    <g transform="translate(16,270)">
+      <rect x="0" y="0" width="278" height="74" rx="14" ry="14" fill="url(#schemaGlow)" stroke="#439CF4" stroke-width="2"/>
+      <text class="sans tH" x="14" y="18">Schema Layer</text>
+      <text class="mono tM" x="14" y="40">{ }  structured data</text>
+
+      <!-- Tiny graph nodes -->
+      <g transform="translate(170,18)">
+        <circle cx="0" cy="22" r="5" fill="#439CF4"/>
+        <circle cx="30" cy="8" r="5" fill="#439CF4"/>
+        <circle cx="52" cy="26" r="5" fill="#439CF4"/>
+        <circle cx="78" cy="12" r="5" fill="#439CF4"/>
+        <circle cx="96" cy="30" r="5" fill="#439CF4"/>
+        <path d="M0,22 L30,8 L52,26 L78,12 L96,30" fill="none" stroke="rgba(67,156,244,0.55)" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- CENTER: Research + A/B + Systems -->
+  <g transform="translate(378,112)" filter="url(#shadow)">
+    <rect class="panel" x="0" y="0" width="300" height="320" rx="16" ry="16"/>
+    <text class="sans tH" x="18" y="26">Experiment</text>
+    <text class="sans tL" x="18" y="46">Compare outputs under the same conditions</text>
+
+    <!-- Magnifying glass -->
+    <g transform="translate(18,66)">
+      <circle cx="44" cy="44" r="28" fill="#0E1219" stroke="#839FAD" stroke-width="3"/>
+      <circle cx="44" cy="44" r="18" fill="none" stroke="rgba(67,156,244,0.55)" stroke-width="3"/>
+      <path d="M64,64 L92,92" stroke="#839FAD" stroke-width="6" stroke-linecap="round"/>
+      <path d="M72,72 L92,92" stroke="#1E3A8A" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+      <rect x="106" y="32" width="164" height="62" rx="12" ry="12" fill="#0E1219" stroke="rgba(255,255,255,0.12)"/>
+      <text class="sans tH" x="118" y="54">Research focus</text>
+      <text class="sans tL" x="118" y="74">Schema impact on AI + SEO</text>
+    </g>
+
+    <!-- A/B split -->
+    <g transform="translate(18,164)">
+      <rect class="chip" x="0" y="0" width="122" height="34" rx="10" ry="10"/>
+      <text class="sans chipText" x="14" y="22">A  No Schema</text>
+
+      <rect class="chip" x="158" y="0" width="122" height="34" rx="10" ry="10"/>
+      <text class="sans chipText" x="172" y="22">B  With Schema</text>
+
+      <!-- Split arrows down into systems -->
+      <path class="arrowDot" d="M61,36 C61,64 60,70 60,86"/>
+      <path class="arrow" d="M219,36 C219,64 220,70 220,86"/>
+    </g>
+
+    <!-- Systems box -->
+    <g transform="translate(18,248)">
+      <rect class="panel2" x="0" y="0" width="264" height="56" rx="14" ry="14"/>
+      <text class="sans tH" x="14" y="22">Search + AI Systems</text>
+      <text class="sans tL" x="14" y="42">Indexing, retrieval, summarization</text>
+
+      <!-- icons -->
+      <g transform="translate(188,14)">
+        <circle cx="10" cy="10" r="9" fill="none" stroke="#839FAD" stroke-width="2.5"/>
+        <path d="M16,16 L26,26" stroke="#839FAD" stroke-width="3.5" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(224,12)">
+        <circle cx="10" cy="12" r="4" fill="#439CF4"/>
+        <circle cx="26" cy="6" r="4" fill="#439CF4"/>
+        <circle cx="30" cy="20" r="4" fill="#439CF4"/>
+        <circle cx="16" cy="24" r="4" fill="#439CF4"/>
+        <path d="M10,12 L26,6 L30,20 L16,24 L10,12" fill="none" stroke="rgba(67,156,244,0.55)" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Connections from LEFT panel to A/B -->
+  <path class="arrow" d="M350,260 C366,260 370,260 378,260"/>
+  <path class="arrow" d="M350,340 C366,340 370,340 378,340"/>
+
+  <!-- Connections from systems to outputs -->
+  <path class="arrow" d="M660,360 C704,360 724,316 740,296"/>
+  <path class="arrow" d="M660,382 C702,382 724,396 740,412"/>
+
+  <!-- RIGHT: Outputs -->
+  <g transform="translate(720,92)" filter="url(#shadow)">
+    <!-- AI Snippet card -->
+    <rect class="panel" x="0" y="0" width="264" height="220" rx="16" ry="16"/>
+    <rect x="12" y="12" width="240" height="196" rx="14" ry="14" fill="url(#aiGlow)" stroke="#1E3A8A" stroke-width="2"/>
+    <text class="sans tH" x="18" y="32">AI Answer Snippet</text>
+    <text class="sans tL" x="18" y="52">Summary + citations</text>
+
+    <g transform="translate(18,72)">
+      <rect x="0" y="0" width="228" height="16" rx="8" fill="#2A374E" opacity="0.85"/>
+      <rect x="0" y="24" width="214" height="12" rx="6" fill="#2A374E" opacity="0.65"/>
+      <rect x="0" y="44" width="226" height="12" rx="6" fill="#2A374E" opacity="0.60"/>
+      <rect x="0" y="64" width="180" height="12" rx="6" fill="#2A374E" opacity="0.60"/>
+      <rect x="0" y="92" width="228" height="16" rx="8" fill="#2A374E" opacity="0.80"/>
+      <rect x="0" y="116" width="196" height="12" rx="6" fill="#2A374E" opacity="0.58"/>
+      <rect x="0" y="136" width="210" height="12" rx="6" fill="#2A374E" opacity="0.55"/>
+
+      <!-- citation marker -->
+      <g transform="translate(188,156)">
+        <rect x="0" y="0" width="40" height="18" rx="9" ry="9" fill="#0E1219" stroke="rgba(255,255,255,0.14)"/>
+        <text class="mono" x="8" y="13" fill="#FFF8C5" font-size="10" font-weight="800">[1]</text>
+      </g>
+
+      <!-- variance badge -->
+      <g transform="translate(0,156)">
+        <rect x="0" y="0" width="74" height="18" rx="9" ry="9" fill="#0E1219" stroke="rgba(255,255,255,0.14)"/>
+        <text class="mono" x="10" y="13" fill="#839FAD" font-size="10" font-weight="800">sigma</text>
+      </g>
+    </g>
+
+    <!-- SEO Metrics card -->
+    <g transform="translate(0,240)">
+      <rect class="panel" x="0" y="0" width="264" height="220" rx="16" ry="16"/>
+      <text class="sans tH" x="18" y="28">SEO Outcomes</text>
+      <text class="sans tL" x="18" y="48">Measure changes over time</text>
+
+      <!-- mini chart -->
+      <g transform="translate(18,70)">
+        <rect x="0" y="0" width="228" height="94" rx="12" ry="12" fill="#0E1219" stroke="rgba(255,255,255,0.12)"/>
+        <path d="M18,76 L18,20" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+        <path d="M18,76 L210,76" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+
+        <path d="M28,66 C56,56 70,60 92,48 C116,34 132,40 154,28 C174,18 190,24 202,14"
+              fill="none" stroke="#00FF44" stroke-width="3.2" stroke-linecap="round"/>
+
+        <circle cx="28" cy="66" r="3.5" fill="#00FF44"/>
+        <circle cx="92" cy="48" r="3.5" fill="#00FF44"/>
+        <circle cx="154" cy="28" r="3.5" fill="#00FF44"/>
+        <circle cx="202" cy="14" r="3.5" fill="#00FF44"/>
+
+        <text class="mono" x="20" y="90" fill="#839FAD" font-size="10" font-weight="800">time</text>
+        <text class="mono" x="2" y="22" fill="#839FAD" font-size="10" font-weight="800">lift</text>
+      </g>
+
+      <!-- metrics -->
+      <g transform="translate(18,178)">
+        <rect x="0" y="0" width="72" height="28" rx="10" ry="10" fill="#0E1219" stroke="rgba(255,255,255,0.12)"/>
+        <text class="sans" x="14" y="19" fill="#FFFFFF" font-size="12" font-weight="800">CTR</text>
+        <text class="mono" x="46" y="19" fill="#00FF44" font-size="12" font-weight="900">+</text>
+
+        <rect x="78" y="0" width="92" height="28" rx="10" ry="10" fill="#0E1219" stroke="rgba(255,255,255,0.12)"/>
+        <text class="sans" x="92" y="19" fill="#FFFFFF" font-size="12" font-weight="800">Impr</text>
+        <text class="mono" x="140" y="19" fill="#00FF44" font-size="12" font-weight="900">+</text>
+
+        <rect x="176" y="0" width="70" height="28" rx="10" ry="10" fill="#0E1219" stroke="rgba(255,255,255,0.12)"/>
+        <text class="sans" x="190" y="19" fill="#FFFFFF" font-size="12" font-weight="800">Rank</text>
+        <text class="mono" x="230" y="19" fill="#00FF44" font-size="12" font-weight="900">+</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Labels for arrows (A/B paths) -->
+  <g transform="translate(448,322)">
+    <text class="monoTiny" x="0" y="0" dominant-baseline="hanging">A and B feed identical systems</text>
+  </g>
+
+  <!-- Hypothesis / observation hints -->
+  <g transform="translate(374,458)">
+    <rect x="0" y="0" width="640" height="40" rx="14" ry="14" fill="#1E293A" stroke="rgba(255,255,255,0.10)" opacity="0.92"/>
+    <path d="M18,20 L46,20" class="arrowDot"/>
+    <text class="sans" x="58" y="25" fill="#839FAD" font-size="12" font-weight="700">Hypothesis</text>
+
+    <path d="M168,20 L196,20" class="greenLine"/>
+    <text class="sans" x="208" y="25" fill="#839FAD" font-size="12" font-weight="700">Observed lift</text>
+
+    <text class="sans" x="350" y="25" fill="#FFF8C5" font-size="12" font-weight="800">Measure snippet format, citations, CTR, impressions, rank</text>
+  </g>
+</svg>
