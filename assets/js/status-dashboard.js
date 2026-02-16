@@ -52,30 +52,6 @@ const DNS_RESOLVERS = [
     format: 'json', corsOk: true,
     headers: {},
   },
-  {
-    id: 'dns_quad9', name: 'Quad9', ip: '9.9.9.9', color: '#3b82f6', icon: 'Q9',
-    // Port 443 (not 5053), wire format only
-    url: 'https://dns.quad9.net/dns-query?dns=AAABAAABAAAAAAAAB2V4YW1wbGUDY29tAAABAAE',
-    page: 'https://uptime.quad9.net',
-    format: 'wire', corsOk: false,
-    headers: { 'Accept': 'application/dns-message' },
-  },
-  {
-    id: 'dns_opendns', name: 'OpenDNS', ip: '208.67.222.222', color: '#e97627', icon: 'OD',
-    // Wire format only (no JSON support)
-    url: 'https://doh.opendns.com/dns-query?dns=AAABAAABAAAAAAAAB2V4YW1wbGUDY29tAAABAAE',
-    page: 'https://status.p1.opendns.com',
-    format: 'wire', corsOk: false,
-    headers: { 'Accept': 'application/dns-message' },
-  },
-  {
-    id: 'dns_adguard', name: 'AdGuard', ip: '94.140.14.14', color: '#68bc71', icon: 'AG',
-    // Supports JSON API similar to Cloudflare
-    url: 'https://dns.adguard-dns.com/dns-query?name=example.com&type=A',
-    page: 'https://status.adguard.com',
-    format: 'json', corsOk: false,
-    headers: { 'Accept': 'application/dns-json' },
-  },
 ];
 
 // Unified DNS probe: direct for CORS-friendly, corsproxy for the rest
@@ -136,7 +112,9 @@ const MANUAL = [
   { name:'ElevenLabs',  desc:'Voice Synthesis · TTS',              url:'https://status.elevenlabs.io',      color:'#000000', icon:'11L' },
   { name:'AWS',         desc:'Amazon Web Services',                url:'https://health.aws.amazon.com',     color:'#ff9900', icon:'AWS' },
   { name:'Azure',       desc:'Microsoft Cloud · VMs · AD',         url:'https://azure.status.microsoft/en-us/status', color:'#0078d4', icon:'AZR' },
-  { name:'Level3/Lumen',desc:'DNS 4.2.2.2 · No DoH endpoint',     url:'https://www.lumen.com/en-us/about/network-status.html', color:'#4a5568', icon:'L3' },
+  { name:'Quad9',       desc:'DNS 9.9.9.9',                        url:'https://uptime.quad9.net',              color:'#3b82f6', icon:'Q9'  },
+  { name:'OpenDNS',     desc:'DNS 208.67.222.222',                  url:'https://status.p1.opendns.com',         color:'#e97627', icon:'OD'  },
+  { name:'AdGuard',     desc:'DNS 94.140.14.14',                    url:'https://status.adguard.com',            color:'#68bc71', icon:'AG'  },
 ];
 
 // ══════════════════════════════════════════
