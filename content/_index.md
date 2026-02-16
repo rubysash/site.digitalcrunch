@@ -29,7 +29,7 @@ description: "AI automation implementation for $1M-$5M businesses. Voice agents,
 </div>
 
 <div class="services-grid__card">
-<div class="services-grid__card-header"><a href="/services/ai-bots/">AI Lead Generation</a></div>
+<div class="services-grid__card-header"><a href="/services/ai-lead-generation/">AI Lead Generation</a></div>
 <div class="services-grid__card-body">
 <div class="services-grid__benefits">
 <div class="services-grid__label">What you get</div>

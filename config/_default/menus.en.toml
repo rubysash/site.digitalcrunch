@@ -35,6 +35,12 @@
   weight = 105
 
 [[main]]
+  name = "AI Lead Generation"
+  parent = "Services"
+  pageRef = "services/ai-lead-generation"
+  weight = 107
+
+[[main]]
   name = "AI Search"
   parent = "Services"
   pageRef = "services/schema-validation"
