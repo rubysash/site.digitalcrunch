@@ -549,41 +549,68 @@ nav.toc .toc-tracker:has(#TableOfContents > ul > li > ul > li > a[aria-current="
 }
 /* Homepage services grid */
 .services-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-  margin: 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 2rem 0;
 }
 
 .services-grid__card {
-  background: rgba(30, 58, 95, 0.25);
-  border: 1px solid rgba(67, 156, 244, 0.30);
+  background: rgba(14, 18, 25, 0.6);
+  border: 1px solid rgba(67, 156, 244, 0.25);
   border-radius: 10px;
-  padding: 1.5rem;
+  overflow: hidden;
   transition: border-color 200ms ease, box-shadow 200ms ease;
 }
 
 .services-grid__card:hover {
-  border-color: rgba(67, 156, 244, 0.60);
-  box-shadow: 0 0 20px rgba(67, 156, 244, 0.12);
+  border-color: rgba(67, 156, 244, 0.55);
+  box-shadow: 0 0 24px rgba(67, 156, 244, 0.10);
 }
 
-.services-grid__card h3 {
-  margin-top: 0 !important;
-  margin-bottom: 0.75rem !important;
-  border-left: none !important;
-  padding-left: 0 !important;
+.services-grid__card-header {
+  background: linear-gradient(135deg, var(--navy), var(--cobalt));
+  padding: 0.9rem 1.5rem;
+  border-bottom: 2px solid rgba(67, 156, 244, 0.35);
 }
 
-.services-grid__card h3 a {
-  color: var(--azure) !important;
+.services-grid__card-header a {
+  color: var(--white) !important;
   text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.3px;
 }
 
-.services-grid__card h3 a:hover {
+.services-grid__card-header a:hover {
   color: var(--electric) !important;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+}
+
+.services-grid__card-body {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.services-grid__benefits,
+.services-grid__cost {
+  flex: 1;
+}
+
+.services-grid__label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.services-grid__benefits .services-grid__label {
+  color: var(--electric);
+}
+
+.services-grid__cost .services-grid__label {
+  color: var(--buttercream);
 }
 
 .services-grid__card ul {
@@ -593,31 +620,34 @@ nav.toc .toc-tracker:has(#TableOfContents > ul > li > ul > li > a[aria-current="
 }
 
 .services-grid__card li {
-  padding: 0.3rem 0;
-  padding-left: 1.2rem;
+  padding: 0.35rem 0;
+  padding-left: 1.3rem;
   position: relative;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.45;
 }
 
-.services-grid__card li::before {
-  content: "▸";
+.services-grid__benefits li::before {
+  content: "✓";
   position: absolute;
   left: 0;
   color: var(--electric);
+  font-weight: 700;
 }
 
-.services-grid__card .card-gap {
-  color: var(--buttercream);
-  font-size: 0.8rem;
-  font-weight: 600;
-  margin-top: 0.75rem;
-  margin-bottom: 0.25rem;
-  opacity: 0.85;
+.services-grid__cost li::before {
+  content: "✗";
+  position: absolute;
+  left: 0;
+  color: #ff4444;
+  font-weight: 700;
 }
 
 @media (max-width: 760px) {
-  .services-grid {
-    grid-template-columns: 1fr;
+  .services-grid__card-body {
+    flex-direction: column;
+    gap: 1rem;
   }
 }
 
