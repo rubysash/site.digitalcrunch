@@ -547,6 +547,80 @@ nav.toc .toc-tracker:has(#TableOfContents > ul > li > ul > li > a[aria-current="
     max-width: 520px;
   }
 }
+/* Homepage services grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+}
+
+.services-grid__card {
+  background: rgba(30, 58, 95, 0.25);
+  border: 1px solid rgba(67, 156, 244, 0.30);
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: border-color 200ms ease, box-shadow 200ms ease;
+}
+
+.services-grid__card:hover {
+  border-color: rgba(67, 156, 244, 0.60);
+  box-shadow: 0 0 20px rgba(67, 156, 244, 0.12);
+}
+
+.services-grid__card h3 {
+  margin-top: 0 !important;
+  margin-bottom: 0.75rem !important;
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+
+.services-grid__card h3 a {
+  color: var(--azure) !important;
+  text-decoration: none;
+}
+
+.services-grid__card h3 a:hover {
+  color: var(--electric) !important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.services-grid__card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services-grid__card li {
+  padding: 0.3rem 0;
+  padding-left: 1.2rem;
+  position: relative;
+  font-size: 0.9rem;
+}
+
+.services-grid__card li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--electric);
+}
+
+.services-grid__card .card-gap {
+  color: var(--buttercream);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+  opacity: 0.85;
+}
+
+@media (max-width: 760px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* buttons */
   .cta-button {
     display: inline-flex;
