@@ -49,7 +49,7 @@ This is not a productivity problem. It is a physics problem. There are only so m
 
 We deploy outbound AI agents across email and social direct messages that engage prospects using proven, structured sales methodology. The same frameworks taught in elite sales training programs.
 
-### Intelligent Conversation, Not Templates
+### Beyond Templates
 
 These agents do not blast generic scripts. They:
 
