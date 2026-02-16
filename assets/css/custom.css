@@ -598,19 +598,24 @@ nav.toc .toc-tracker:has(#TableOfContents > ul > li > ul > li > a[aria-current="
 }
 
 .services-grid__label {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 0.5rem;
+  padding-bottom: 0.35rem;
+  margin-bottom: 0.6rem;
 }
 
 .services-grid__benefits .services-grid__label {
   color: var(--electric);
+  border-bottom: 2px solid rgba(0, 255, 68, 0.35);
 }
 
 .services-grid__cost .services-grid__label {
-  color: var(--buttercream);
+  color: #ff6b6b;
+  font-size: 1rem;
+  font-weight: 800;
+  border-bottom: 2px solid rgba(255, 68, 68, 0.5);
 }
 
 .services-grid__card ul {
