@@ -7,6 +7,7 @@ showAuthor: false
 authors:
  - "jamesfraze"
 tags: ["tools"]
+showTableOfContents: false
 ---
 
 I needed to create paths, with coordinates on a given SVG so I could have another tool create animations from them. This is the result of what I needed to create.  The animated background image you see is an SVG created with the help of this tool.  I used this tool to trace the paths of the pulses.
