@@ -1,6 +1,7 @@
 ---
 title: "Digital Crunch Color Codes"
 description: "Color codes we use on our site"
+draft: true
 ---
 
 

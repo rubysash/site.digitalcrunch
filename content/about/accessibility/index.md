@@ -1,6 +1,6 @@
 ---
 title: "Accessibility Statement"
-descriptipon: "Our committment to ensuring digital accessibility for all people"
+description: "Our commitment to ensuring digital accessibility for all people"
 ---
 
 ## Our Commitment
