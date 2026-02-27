@@ -8,108 +8,133 @@ description: "AI automation implementation for $1M-$5M businesses. Voice agents,
 <div class="services-grid">
 
 <div class="services-grid__card">
-<div class="services-grid__card-header"><a href="/services/ai-bots/">AI Voice & Chat Agents</a></div>
-<div class="services-grid__card-body">
-<div class="services-grid__benefits">
-<div class="services-grid__label">What you get</div>
-<ul>
-<li>24/7 receptionist that books appointments</li>
-<li>Handles calls, chat, SMS, email & social DMs</li>
-<li>CRM integration with transcripts & lead capture</li>
-</ul>
-</div>
-<div class="services-grid__cost">
-<div class="services-grid__label">Without this</div>
-<ul>
-<li>62% of calls go unanswered</li>
-<li>85% of missed callers never call back</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div class="services-grid__card">
-<div class="services-grid__card-header"><a href="/services/ai-lead-generation/">AI Lead Generation</a></div>
-<div class="services-grid__card-body">
-<div class="services-grid__benefits">
-<div class="services-grid__label">What you get</div>
-<ul>
-<li>Outbound AI voice, SMS, email & LinkedIn outreach</li>
-<li>Lead scoring and qualification before handoff</li>
-<li>Replaces $4K+/month SDR with always-on automation</li>
-</ul>
-</div>
-<div class="services-grid__cost">
-<div class="services-grid__label">Without this</div>
-<ul>
-<li>Your team chases cold leads manually</li>
-<li>Pipeline depends on hours you can work</li>
-</ul>
-</div>
-</div>
+  <div class="services-grid__card-header">
+    <a href="/services/ai-bots/">AI Voice & Chat Systems</a>
+  </div>
+  <div class="services-grid__card-body">
+    <div class="services-grid__benefits">
+      <div class="services-grid__label">Your Competitors</div>
+      <ul>
+        <li>24/7 Sales Engine</li>
+        <li>Instant Response</li>
+        <li>Automated Booking</li>
+        <li>Scalable Systems</li>
+      </ul>
+    </div>
+    <div class="services-grid__cost">
+      <div class="services-grid__label">Where You Are Losing</div>
+      <ul>
+        <li>62% Unanswered Calls</li>
+        <li>85% Book with Rivals</li>
+        <li>Manual Bottlenecks</li>
+        <li>Inconsistent Revenue</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <div class="services-grid__card">
-<div class="services-grid__card-header"><a href="/services/">AI Reputation Management</a></div>
-<div class="services-grid__card-body">
-<div class="services-grid__benefits">
-<div class="services-grid__label">What you get</div>
-<ul>
-<li>Automated review requests after every job</li>
-<li>AI responses to all reviews — positive and negative</li>
-<li>Sentiment monitoring across Google, Yelp & socials</li>
-</ul>
-</div>
-<div class="services-grid__cost">
-<div class="services-grid__label">Without this</div>
-<ul>
-<li>Competitors with more reviews win the local pack</li>
-<li>One bad review costs you 30 customers</li>
-</ul>
-</div>
-</div>
-</div>
-
-<div class="services-grid__card">
-<div class="services-grid__card-header"><a href="/services/schema-validation/">AI Search & Schema Optimization</a></div>
-<div class="services-grid__card-body">
-<div class="services-grid__benefits">
-<div class="services-grid__label">What you get</div>
-<ul>
-<li>Schema validation & JSON-LD implementation</li>
-<li>Answer Engine Optimization for AI search</li>
-<li>llms.txt configuration & ADA compliance audits</li>
-</ul>
-</div>
-<div class="services-grid__cost">
-<div class="services-grid__label">Without this</div>
-<ul>
-<li>AI assistants recommend competitors, not you</li>
-<li>Invalid schema risks ADA legal exposure</li>
-</ul>
-</div>
-</div>
+  <div class="services-grid__card-header">
+    <a href="/services/ai-lead-generation/">AI Outbound Systems</a>
+  </div>
+  <div class="services-grid__card-body">
+    <div class="services-grid__benefits">
+      <div class="services-grid__label">Your Competitors</div>
+      <ul>
+        <li>24/7 Autonomous Prospecting</li>
+        <li>Surgical Ad Spend</li>
+        <li>Automated Follow-ups</li>
+        <li>Zero Payroll Outreach</li>
+      </ul>
+    </div>
+    <div class="services-grid__cost">
+      <div class="services-grid__label">Where You Are Losing</div>
+      <ul>
+        <li>Humans Need Sleep</li>
+        <li>Wasted Marketing Dollars</li>
+        <li>Ghosted Leads</li>
+        <li>$50k Annual Payroll Waste</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <div class="services-grid__card">
-<div class="services-grid__card-header"><a href="/services/">AI Governance & Security</a></div>
-<div class="services-grid__card-body">
-<div class="services-grid__benefits">
-<div class="services-grid__label">What you get</div>
-<ul>
-<li>Data leakage prevention for customer-facing AI</li>
-<li>Prompt injection hardening on public bots</li>
-<li>Compliance docs & security audits</li>
-</ul>
+  <div class="services-grid__card-header">
+    <a href="/services/ai-reputation/">AI Reputation Systems</a>
+  </div>
+  <div class="services-grid__card-body">
+    <div class="services-grid__benefits">
+      <div class="services-grid__label">Your Competitors</div>
+      <ul>
+        <li>Local Map Dominance</li>
+        <li>5-Star Feedback Loops</li>
+        <li>Instant AI Response</li>
+        <li>Review Rank Supremacy</li>
+      </ul>
+    </div>
+    <div class="services-grid__cost">
+      <div class="services-grid__label">Where You Are Losing</div>
+      <ul>
+        <li>Invisible to Local Search</li>
+        <li>Staff Forgets to Ask</li>
+        <li>Unchecked Negative Reviews</li>
+        <li>One Bad Star Costs $10k</li>
+      </ul>
+    </div>
+  </div>
 </div>
-<div class="services-grid__cost">
-<div class="services-grid__label">Without this</div>
-<ul>
-<li>Your AI bot gets manipulated to damage your brand</li>
-<li>Enterprise clients require governance documentation</li>
-</ul>
+
+<div class="services-grid__card">
+  <div class="services-grid__card-header">
+    <a href="/services/schema-validation/">AI Search Systems</a>
+  </div>
+  <div class="services-grid__card-body">
+    <div class="services-grid__benefits">
+      <div class="services-grid__label">Your Competitors</div>
+      <ul>
+        <li>Schema & JSON-LD Authority</li>
+        <li>llms.txt AI Sitemaps</li>
+        <li>Answer Engine Dominance</li>
+        <li>ADA Compliance Hardening</li>
+      </ul>
+    </div>
+    <div class="services-grid__cost">
+      <div class="services-grid__label">Where You Are Losing</div>
+      <ul>
+        <li>Broken Search Data</li>
+        <li>Invisible to AI Chatbots</li>
+        <li>Rivals Capture Voice Search</li>
+        <li>ADA Lawsuit Liability</li>
+      </ul>
+    </div>
+  </div>
 </div>
-</div>
+
+<div class="services-grid__card">
+  <div class="services-grid__card-header">
+    <a href="/services/ai-security/">AI System Security</a>
+  </div>
+  <div class="services-grid__card-body">
+    <div class="services-grid__benefits">
+      <div class="services-grid__label">Your Competitors</div>
+      <ul>
+        <li>Anti-Manipulation Shield</li>
+        <li>Hardened Data Privacy</li>
+        <li>Liability Documentation</li>
+        <li>Secured AI Logic</li>
+      </ul>
+    </div>
+    <div class="services-grid__cost">
+      <div class="services-grid__label">Where You Are Losing</div>
+      <ul>
+        <li>Bot Trickery Risks</li>
+        <li>Leaked Customer Lists</li>
+        <li>Brand Damage Liability</li>
+        <li>Zero Security Audit</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 </div>
