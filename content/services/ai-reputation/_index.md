@@ -39,7 +39,7 @@ The numbers are not subtle:
 - **90%** of consumers read reviews before visiting a business
 - Businesses with **more than 50 reviews** earn 266% more leads from Google Maps
 - **One unanswered negative review** costs an average of 30 lost customers
-- Google's local algorithm weighs **review velocity** — how often new reviews come in, not just total count
+- Google's local algorithm weighs **review velocity** -how often new reviews come in, not just total count
 
 Your service quality is irrelevant if nobody documents it. Reviews are not testimonials. They are search ranking signals. Every week without new reviews, your competitors gain ground.
 
@@ -56,13 +56,13 @@ We build review generation systems inside GoHighLevel that run without human inv
 | 1 | SMS | Minutes after job close | Short, direct ask with one-tap Google review link |
 | 2 | Email | 2 hours later | Slightly longer message with review link and thank-you |
 | 3 | SMS | 24 hours | Gentle reminder for those who opened but did not complete |
-| 4 | Email | 48 hours | Final touch with a different angle — "help future customers find us" |
+| 4 | Email | 48 hours | Final touch with a different angle -"help future customers find us" |
 
 The trigger is automatic. When your CRM marks a job complete, paid, or invoiced, the campaign fires. No staff action required. No clipboard at the front desk. No "I'll send that later."
 
 ### Why Multi-Channel
 
-People check different things at different times. Some respond to texts immediately. Some need the email sitting in their inbox the next morning. The sequence covers both without being aggressive — each message is spaced, polite, and easy to ignore if they choose.
+People check different things at different times. Some respond to texts immediately. Some need the email sitting in their inbox the next morning. The sequence covers both without being aggressive -each message is spaced, polite, and easy to ignore if they choose.
 
 ---
 
@@ -76,7 +76,7 @@ We configure AI-powered response workflows that:
 
 - **Reply to positive reviews** within minutes. Personalized, not generic. References the service type and customer name when available.
 - **Reply to negative reviews** with professional, measured responses. Acknowledges the concern, offers resolution path, protects your brand publicly.
-- **Flag critical reviews** for your personal attention when human judgment is needed — legal threats, false claims, competitor sabotage.
+- **Flag critical reviews** for your personal attention when human judgment is needed -legal threats, false claims, competitor sabotage.
 
 Every response maintains your brand voice. The AI does not apologize for things you did not do. It does not make promises you cannot keep. Guardrails are built into every template.
 
@@ -88,9 +88,9 @@ Your CRM is full of leads that went cold. Quoted but never closed. Called but ne
 
 We build reactivation campaigns that re-engage your dormant database using automated SMS and email sequences:
 
-- **Past quotes** — "We quoted you on [service] back in [month]. Still need it handled?"
-- **Cancelled appointments** — "Life gets busy. Want us to reschedule?"
-- **Old inquiries** — "You reached out about [service]. We have availability this week."
+- **Past quotes** -"We quoted you on [service] back in [month]. Still need it handled?"
+- **Cancelled appointments** -"Life gets busy. Want us to reschedule?"
+- **Old inquiries** -"You reached out about [service]. We have availability this week."
 
 ### Why This Works
 
@@ -104,9 +104,9 @@ We build reactivation campaigns that re-engage your dormant database using autom
 | Step | Channel | Message Strategy |
 |---|---|---|
 | 1 | SMS | Short, casual check-in referencing original service interest |
-| 2 | Email | Value-first message — seasonal relevance, limited availability, or pricing update |
-| 3 | SMS | Direct ask — "Want me to put you on the schedule?" |
-| 4 | Email | Final touch — soft close or opt-out acknowledgment |
+| 2 | Email | Value-first message -seasonal relevance, limited availability, or pricing update |
+| 3 | SMS | Direct ask -"Want me to put you on the schedule?" |
+| 4 | Email | Final touch -soft close or opt-out acknowledgment |
 
 Leads that respond get routed back into your active pipeline. Leads that do not respond get tagged and suppressed. Clean data, no spam.
 
@@ -114,7 +114,7 @@ Leads that respond get routed back into your active pipeline. Leads that do not 
 
 ## The Flywheel Effect
 
-These three systems — review generation, AI response, and dead lead reactivation — feed each other:
+These three systems -review generation, AI response, and dead lead reactivation -feed each other:
 
 1. **More reviews** improve your local ranking
 2. **Higher ranking** drives more inbound leads
@@ -130,7 +130,7 @@ This is not a one-time campaign. It is a self-reinforcing system that compounds 
 
 Most agencies will set up a review request template and call it done. We engineer the full system.
 
-- **GHL automation architecture.** Triggers, conditions, branching logic, and fail-safes. Not a single drip sequence — a system that adapts based on job type, customer segment, and response behavior.
+- **GHL automation architecture.** Triggers, conditions, branching logic, and fail-safes. Not a single drip sequence -a system that adapts based on job type, customer segment, and response behavior.
 - **Security-first CRM handling.** Your customer database is your most valuable asset. We handle CRM credentials and contact data with cybersecurity rigor, not marketing-agency carelessness.
 - **Compliance built in.** Opt-out handling, A2P messaging compliance, suppression lists. We do not cut corners on deliverability or consent.
 - **Continuous optimization.** We monitor review capture rates, response times, and reactivation conversion. The system gets tuned based on real performance data.

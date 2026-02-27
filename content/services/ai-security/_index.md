@@ -47,7 +47,7 @@ If your AI provider has not tested for these scenarios, they have not secured yo
 
 ## What We Harden
 
-Every AI system we deploy — voice agents on Retell and VAPI, chat and SMS workflows in GoHighLevel, automation chains across the stack — gets the same security treatment.
+Every AI system we deploy -voice agents on Retell and VAPI, chat and SMS workflows in GoHighLevel, automation chains across the stack -gets the same security treatment.
 
 ### Prompt Injection Defense
 - Strict system-level instructions that resist override attempts
@@ -56,7 +56,7 @@ Every AI system we deploy — voice agents on Retell and VAPI, chat and SMS work
 - Fallback logic that defaults to safe responses, not creative ones
 
 ### Data Boundary Enforcement
-- CRM field-level access controls — bots read only what they need
+- CRM field-level access controls -bots read only what they need
 - Customer PII never surfaced in bot responses unless explicitly required
 - API credentials stored with proper scoping and rotation schedules
 - GHL workflow permissions locked to minimum required access
@@ -64,12 +64,12 @@ Every AI system we deploy — voice agents on Retell and VAPI, chat and SMS work
 ### Hallucination Guardrails
 - Response boundaries tied to verified business data, not open-ended generation
 - Price, service, and availability references pulled from structured sources
-- "I don't know" logic — the bot escalates instead of inventing answers
+- "I don't know" logic -the bot escalates instead of inventing answers
 - Transfer-to-human triggers for edge cases beyond configured scope
 
 ### Conversation Monitoring
 - Call recordings and chat transcripts logged to CRM automatically
-- Flagging rules for unusual patterns — repeated probing, off-topic steering
+- Flagging rules for unusual patterns -repeated probing, off-topic steering
 - Periodic review of bot interactions against expected behavior
 
 ---
@@ -96,10 +96,10 @@ We monitor upstream availability across this stack in real-time on our [Status D
 
 Enterprise clients and insurance carriers increasingly require governance documentation for AI systems. We provide it.
 
-- **AI Usage Policy** — What your bots can and cannot do, in writing
-- **Data Handling Documentation** — Where customer data flows, who can access it, how long it persists
-- **Incident Response Plan** — What happens when a bot misbehaves, who gets notified, how fast it gets pulled
-- **Security Audit Summary** — Testing performed, vulnerabilities addressed, configuration decisions
+- **AI Usage Policy** -What your bots can and cannot do, in writing
+- **Data Handling Documentation** -Where customer data flows, who can access it, how long it persists
+- **Incident Response Plan** -What happens when a bot misbehaves, who gets notified, how fast it gets pulled
+- **Security Audit Summary** -Testing performed, vulnerabilities addressed, configuration decisions
 
 This is not a template. It is documentation specific to your deployment, your stack, and your business requirements.
 

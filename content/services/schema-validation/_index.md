@@ -1,73 +1,116 @@
 ---
-title: "Schema Validation"
-description: "Schema Validation Service"
+title: "Schema Validation & AEO"
+description: "Schema validation, JSON-LD implementation, llms.txt configuration, and Answer Engine Optimization for AI search dominance."
 layout: "full"
 showAuthor: false
-showTableOfContents: false
+showTableOfContents: true
 authors:
- - "jamesfraze"
-tags: ["services","ai-search"]
+  - "jamesfraze"
+tags:
+  - "services"
+  - "ai-search"
+  - "schema"
+  - "aeo"
 showReadingTime: false
 showWordCount: false
 showSummary: true
 summary: |
- - Show up in AI Search
- - Schema Validation
- - ADA Compliance
- - AI Answer Engine
- - llms.txt
- - JSON-LD
+  - Schema & JSON-LD Authority
+  - llms.txt AI Sitemaps
+  - Answer Engine Dominance
+  - ADA Compliance Hardening
 ---
 
-Answer Engine Optimization (AEO) is the practice of positioning your business as the definitive, trusted answer that AI search engines and LLMs confidently select and cite.  The easiest way to optimize is to validate your schema and include proper schema on your webiste.
+## The Invisible Business
 
-Digital Crunch is AEO Certified, a rare distinction in technical AI implementation, focused on reducing model uncertainty through deterministic data structures.
+When someone asks ChatGPT, Perplexity, or Google AI for a recommendation in your industry, your name either comes up or it does not. There is no page two. There is no "near the top." The AI picks an answer. One answer.
 
-## Competitors Rank in AI
+Right now, your competitors with valid schema and structured data are the ones getting cited. Your website might rank on Google. But if your data is not machine-readable, AI assistants skip you entirely.
 
-AI assistants like Perplexity and ChatGPT use a two-stage process: 
-
-- Consensus Building and Detail Retrieval. If your competitors appear in AI summaries and you do not, it is likely because they have optimized their 'Indexability' via valid Schema. 
-- AI crawlers prioritize content that uses structured JSON-LD to explicitly declare facts, rather than relying on probabilistic scraping of plain text.
-
-## Cost of Invalid Schema
-
-### 1. Data Quality & "Schema Drift"
-
-Schema Markup must explicitly match the visual content on your page. When your JSON-LD and visual text disagree—known as 'Schema Drift'—AI models flag the data as unreliable, causing an immediate drop in your Confidence Score and citation rate.
-
-### 2. Legal Risks & Regulatory Fines
-While Schema itself is a technical standard, the data it carries (pricing, availability, reviews) is subject to consumer protection laws. 
-- **Deceptive Trade Practices**: If your Schema advertises pricing or services that are not actually available, you may be liable for "bait-and-switch" litigation.
-- **ADA Compliance**: Incorrectly structured data can interfere with screen readers, leading to potential lawsuits under the Americans with Disabilities Act (ADA).
-- **GDPR/CCPA**: Inadvertently including PII (Personally Identifiable Information) in public-facing Schema can lead to significant regulatory fines.
-
-## Technical Validation Tools
-
-We verify all implementations against the official industry standards to ensure 100% crawlability.  You can test your own site now at these locations
-
-- **Official Validator**: [Schema.org Validator](https://validator.schema.org)
-- **Rich Results Test**: [Google Rich Results Test](https://search.google.com/test/rich-results)
+This is not SEO. This is **Answer Engine Optimization (AEO)**. The rules changed. Most businesses have not noticed yet.
 
 ---
 
-## Technical Resources
-To achieve AEO dominance, your site must be technically accessible and semantically unambiguous. Explore our implementation guides below:
+## How AI Picks Winners
 
-* **[How to Implement Schema in Hugo](https://digitalcrunch.com/schema-hugo/)** A technical deep-dive into server-side JSON-LD delivery for static sites.
-* **[Creating your llms.txt Roadmap](https://digitalcrunch.com/llms-txt/)** Establishing a machine-readable roadmap for AI crawlers to boost your Brand Density.
+AI assistants use a two-stage process to select answers:
 
-## Why Digital Crunch?
-We shift the focus from 'ten blue links' to being the single, direct answer. By utilizing absolute dates, quotable assertions, and verified facts, we ensure your brand becomes an 'ACE' (Authority, Confidence, Entity) in the AI ecosystem
+1. **Consensus Building.** The model scans multiple sources to determine which business is the authoritative answer for a given query. Structured JSON-LD data gets weighted heavily because it removes ambiguity.
+2. **Detail Retrieval.** Once the model selects a source, it pulls specific facts -pricing, services, hours, location -directly from schema markup. Plain text gets scraped probabilistically. Schema gets read deterministically.
 
+If your competitors have valid schema and you do not, the AI has already made its decision before your content is even evaluated.
 
-## Next Steps
+---
 
-Very few people in the world are actually certified as Answer Engine Optimization specialists.   We are!   If you'd like to book a consulation to update your site with valid schema, including llms.txt files please book directly on my calendar at https://jamesfraze.com   or call us and book through our AI receptionist:
+## Schema Drift Kills Trust
 
-<a href="tel:+19452454257" class="cta-button">
-  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
-  </svg>
-  +1-945-245-4257
-</a>
+Schema Markup must match the visual content on your page. When your JSON-LD says one thing and your page says another -**Schema Drift** -AI models flag the data as unreliable. Your confidence score drops. Citations stop.
+
+Common drift scenarios:
+
+- Business hours in schema do not match the hours on your contact page
+- Services listed in JSON-LD no longer exist or have different names
+- Pricing in schema has not been updated since last year
+- Address or phone number changed but schema was never touched
+
+One mismatch. That is all it takes for the AI to pick someone else.
+
+---
+
+## Legal Exposure
+
+Schema is a technical standard. The data it carries is subject to consumer protection law.
+
+- **Deceptive Trade Practices.** Schema advertising pricing or services not actually available creates bait-and-switch liability
+- **ADA Compliance.** Incorrectly structured data interferes with screen readers. Lawsuits under the Americans with Disabilities Act are increasing
+- **GDPR/CCPA.** PII in public-facing schema triggers regulatory fines
+
+Most businesses do not know their schema is broken. Most agencies do not check.
+
+---
+
+## What We Implement
+
+| Deliverable | What It Does |
+|---|---|
+| **JSON-LD Schema** | Server-side structured data -services, business info, FAQ, articles -readable by every AI crawler |
+| **Schema Validation** | Tested against official validators. Zero errors. Zero warnings |
+| **llms.txt** | Machine-readable site roadmap specifically for LLMs and answer engines |
+| **Schema Drift Audit** | Cross-check JSON-LD against visual page content for mismatches |
+| **ADA Structure Review** | Semantic HTML and schema alignment for screen reader compatibility |
+
+Everything is rendered server-side. No JavaScript injection. AI bots do not execute JavaScript -if your schema depends on it, bots never see it.
+
+---
+
+## Validation Tools
+
+We verify all implementations against official industry standards. You can test your own site now:
+
+- **Official Validator:** [Schema.org Validator](https://validator.schema.org)
+- **Rich Results Test:** [Google Rich Results Test](https://search.google.com/test/rich-results)
+
+---
+
+## Deep-Dive Guides
+
+We publish the technical methodology behind our implementations:
+
+- **[Implement Schema in Hugo](/research/schema/implement-schema-in-hugo/)** -Server-side JSON-LD delivery, entity linking, trust signals
+- **[llms.txt Creation for Hugo](/research/schema/llms.txt-creation-for-hugo/)** -The llms.txt standard for AI indexability and brand authority
+
+---
+
+## Why Digital Crunch
+
+Digital Crunch is **AEO Certified** -a rare distinction in technical AI implementation. We do not guess at schema. We engineer it.
+
+- **Deterministic data structures** that remove model uncertainty
+- **Security-first implementation** -schema handled with the same rigor as any data exposure surface
+- **Continuous validation** -schema tested on every deployment, not just at launch
+
+Most agencies optimize for Google. We optimize for every AI that is replacing Google.
+
+**AEO Certified. Schema Engineered. AI Search Hardened.**
+
+[Book a Technical Discovery Call](https://jamesfraze.com)

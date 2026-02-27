@@ -22,7 +22,7 @@ summary: |
 
 If you run a service business, you know the math:
 *   **62%** of calls to small businesses go unanswered.
-*   **85%** of customers whose call is missed will not call back—they call your competitor.
+*   **85%** of customers whose call is missed will not call back-they call your competitor.
 *   Hiring a full-time receptionist costs **$3,000+ per month**.
 
 Speed to lead is your only competitive advantage. Voicemail is where leads go to die.
@@ -33,11 +33,11 @@ Speed to lead is your only competitive advantage. Voicemail is where leads go to
 
 We deploy human-like AI voice agents (powered by Retell, VAPI and GHL) that act as your front-line intake team. They don't get sick, or upset. They don't take breaks, and they handle multiple calls at once 24 hours a day, 7 days a week.
 
-*   ✅ **Instant Response:** Answers immediately, day or night
-*   ✅ **Natural Conversation:** Pauses, listens, and responds like a person
-*   ✅ **CRM Integration:** Logs call recording, transcript, and lead details instantly
-*   ✅ **Appointment Setting:** Checks live calendar availability and books the meeting
-*   ✅ **Transfer Option:** Can transfer to a live operator if requested
+*   **Instant Response:** Answers immediately, day or night
+*   **Natural Conversation:** Pauses, listens, and responds like a person
+*   **CRM Integration:** Logs call recording, transcript, and lead details instantly
+*   **Appointment Setting:** Checks live calendar availability and books the meeting
+*   **Transfer Option:** Can transfer to a live operator if requested
 
 ---
 
@@ -59,7 +59,7 @@ Most AI bots feel "robotic" because of the lag. Our implementations are tuned fo
 > 4. Watch how it handles your questions and secures the time slot.
 > 5. Just hang up instead of book or give your info and confirm the booking if you want to talk
 
-> **Engineer's Note:** While you listen, try to interrupt the agent. Notice the sub-500ms response time and the ability to handle mid-sentence corrections—this is the result of precision configuration.
+> **Engineer's Note:** While you listen, try to interrupt the agent. Notice the sub-500ms response time and the ability to handle mid-sentence corrections-this is the result of precision configuration.
 
 If you wish, you can go ahead and book a schedule call too. Though you probably won't reach me directly, you can ask it transfer to me too.
 

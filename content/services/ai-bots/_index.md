@@ -25,7 +25,7 @@ Digital Crunch engineers custom-built AI Agents designed to handle the high-volu
 ### Integrated Communication Channels
 Our implementation expertise covers the full spectrum of automated business communication:
 
-* **AI Voice Receptionist:** 24/7 inbound call handling with natural language processing—perfect for lead qualification and booking without the overhead of a call center.
+* **AI Voice Receptionist:** 24/7 inbound call handling with natural language processing - perfect for lead qualification and booking without the overhead of a call center.
 * **Intelligent Web Chat:** Beyond "if-then" logic; these widgets use RAG (Retrieval-Augmented Generation) to answer complex questions based on your actual business data.
 * **SMS & Messaging Automation:** Automated lead follow-up and appointment reminders via SMS, WhatsApp, and Telegram.
 * **Social & LinkedIn DM Agents:** Scalable outreach and response management for social platforms, ensuring no lead goes cold in the inbox.
