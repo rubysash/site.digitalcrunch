@@ -22,6 +22,32 @@ summary: |
   - Review Rank Supremacy
 ---
 
+<div class="services-grid">
+<div class="services-grid__card">
+  <div class="services-grid__card-header">AI Reputation Systems</div>
+  <div class="services-grid__card-body">
+    <div class="services-grid__benefits">
+      <div class="services-grid__label">Your Competitors</div>
+      <ul>
+        <li>Local Map Dominance</li>
+        <li>5-Star Feedback Loops</li>
+        <li>Instant AI Response</li>
+        <li>Review Rank Supremacy</li>
+      </ul>
+    </div>
+    <div class="services-grid__cost">
+      <div class="services-grid__label">Where You Are Losing</div>
+      <ul>
+        <li>Invisible to Local Search</li>
+        <li>Staff Forgets to Ask</li>
+        <li>Unchecked Negative Reviews</li>
+        <li>One Bad Star Costs $10k</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+
 ## Your Competitors Have a System
 
 The businesses dominating your local map pack are not getting more reviews because they do better work. They get more reviews because they **ask every single customer, every single time, automatically.**

@@ -21,6 +21,32 @@ summary: |
   - ADA Compliance Hardening
 ---
 
+<div class="services-grid">
+<div class="services-grid__card">
+  <div class="services-grid__card-header">AI Search Systems</div>
+  <div class="services-grid__card-body">
+    <div class="services-grid__benefits">
+      <div class="services-grid__label">Your Competitors</div>
+      <ul>
+        <li>Schema & JSON-LD Authority</li>
+        <li>llms.txt AI Sitemaps</li>
+        <li>Answer Engine Dominance</li>
+        <li>ADA Compliance Hardening</li>
+      </ul>
+    </div>
+    <div class="services-grid__cost">
+      <div class="services-grid__label">Where You Are Losing</div>
+      <ul>
+        <li>Broken Search Data</li>
+        <li>Invisible to AI Chatbots</li>
+        <li>Rivals Capture Voice Search</li>
+        <li>ADA Lawsuit Liability</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+
 ## The Invisible Business
 
 When someone asks ChatGPT, Perplexity, or Google AI for a recommendation in your industry, your name either comes up or it does not. There is no page two. There is no "near the top." The AI picks an answer. One answer.

@@ -9,14 +9,14 @@ title = " Digital Crunch - AI Systems. Leads. Sales. 24x7."
   rtl = false
   dateFormat = "2 January 2006"
   logo = "/img/dc_logo.png"
-  description = "We solve technical problems, with a smile!"
+  description = "Technical problems solved. No excuses."
 
 [params.author]
   name = "James Fraze"
   email = "james@jamesfraze.com"
   image = "/img/jamesfraze.jpg"
-  headline = "Principal AI Engineer"
-  bio = "I solve technical problems, with a smile!"
+  headline = "Technical problems solved. No excuses."
+  bio = "Technical problems solved. No excuses."
   links = [
     { "linkedin" = "https://linkedin.com/in/digitalcrunch" },
     { "twitter" = "https://twitter.com/frazemarketing" },

@@ -22,6 +22,32 @@ summary: |
   - 24x7 operation
 ---
 
+<div class="services-grid">
+<div class="services-grid__card">
+  <div class="services-grid__card-header">AI Outbound Systems</div>
+  <div class="services-grid__card-body">
+    <div class="services-grid__benefits">
+      <div class="services-grid__label">Your Competitors</div>
+      <ul>
+        <li>24/7 Autonomous Prospecting</li>
+        <li>Surgical Ad Spend</li>
+        <li>Automated Follow-ups</li>
+        <li>Zero Payroll Outreach</li>
+      </ul>
+    </div>
+    <div class="services-grid__cost">
+      <div class="services-grid__label">Where You Are Losing</div>
+      <ul>
+        <li>Humans Need Sleep</li>
+        <li>Wasted Marketing Dollars</li>
+        <li>Ghosted Leads</li>
+        <li>$50k Annual Payroll Waste</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+
 ## Your Competitors
 
 Right now, businesses in your market are deploying AI agents that send personalized outreach at scale. Emails, LinkedIn messages, Instagram DMs, Facebook messages. Around the clock, every single day.

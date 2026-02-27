@@ -22,6 +22,32 @@ summary: |
   - Secured AI Logic
 ---
 
+<div class="services-grid">
+<div class="services-grid__card">
+  <div class="services-grid__card-header">AI System Security</div>
+  <div class="services-grid__card-body">
+    <div class="services-grid__benefits">
+      <div class="services-grid__label">Your Competitors</div>
+      <ul>
+        <li>Anti-Manipulation Shield</li>
+        <li>Hardened Data Privacy</li>
+        <li>Liability Documentation</li>
+        <li>Secured AI Logic</li>
+      </ul>
+    </div>
+    <div class="services-grid__cost">
+      <div class="services-grid__label">Where You Are Losing</div>
+      <ul>
+        <li>Bot Trickery Risks</li>
+        <li>Leaked Customer Lists</li>
+        <li>Brand Damage Liability</li>
+        <li>Zero Security Audit</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+
 ## The Unguarded Bot
 
 Every voice agent, chatbot, and SMS responder you deploy speaks **on behalf of your brand.** To every customer. 24 hours a day. Without supervision.
