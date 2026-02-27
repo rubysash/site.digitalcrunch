@@ -3,7 +3,8 @@ title: "Digital Crunch AI Implementation Services in Wylie TX"
 description: "AI automation implementation for $1M-$5M businesses. Voice agents, lead generation, reputation management, AI search optimization, and governance — engineered by a security professional."
 ---
 
-## AI is liquidating manual businesses. I build the infrastructure that replaces them.
+## AI is liquidating <span style="color: #ff6b6b">manual operations</span>. 
+## We build <span style="color: var(--electric)">automated sales engines</span> that never sleep.
 
 <div class="services-grid">
 
