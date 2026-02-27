@@ -685,3 +685,16 @@ nav.toc .toc-tracker:has(#TableOfContents > ul > li > ul > li > a[aria-current="
     margin-right: 12px;
     fill: currentColor;
   }
+
+/* ── Card metadata: JetBrains Mono for dates, tags, badges ── */
+.article-link--card .text-sm {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+}
+
+.article-link--card .badge {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+}
