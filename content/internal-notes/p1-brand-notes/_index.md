@@ -85,6 +85,17 @@ If a sentence could appear in any company's marketing copy by swapping the produ
 * **The Alert:** Buttercream (#FFF8C5) - *Warning boxes and risk highlights.*
 * **The Light:** White (#FFFFFF) - *Primary Headline contrast.*
 
+**Heading Hierarchy (custom.css):**
+
+| Level | Color | Weight | Border | Use |
+| :--- | :--- | :--- | :--- | :--- |
+| **H1** | White | 900 | Green glow, blue bottom border | Page title only |
+| **H2** | Azure (#439CF4) | 800 | 6px left blue border | Major sections (appears in TOC) |
+| **H3** | Electric (#00FF44) | 750 | 4px left green border | Subsections (appears in TOC) |
+| **H4** | Electric (#00FF44) | 700 | None | FAQ questions, minor labels (hidden from TOC) |
+
+TOC renders H2-H3 only (`markup.toml endLevel = 3`). Use H4 for FAQ questions and other content that should not clutter navigation.
+
 ---
 
 ## 6. THE DEFINITION OF DONE: THE HARDENED STRATEGIC FILTER

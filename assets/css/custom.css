@@ -54,9 +54,17 @@
   text-shadow: 0 0 8px rgba(0, 255, 68, 0.12);
 }
 
+.prose h4 {
+  font-weight: 700;
+  color: var(--electric) !important;
+  padding-left: 10px;
+  text-shadow: 0 0 6px rgba(0, 255, 68, 0.10);
+}
+
 .prose h1 a,
 .prose h2 a,
-.prose h3 a {
+.prose h3 a,
+.prose h4 a {
   color: inherit !important;
 }
 

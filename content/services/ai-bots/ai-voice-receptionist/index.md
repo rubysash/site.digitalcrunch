@@ -102,17 +102,47 @@ Hiring a full-time receptionist costs **$3,000+ per month**. Our AI implementati
 
 ## FAQ
 
-### Does it sound like a robot?
-No. We use high-fidelity neural voices that include natural breathing and realistic tonality. When configured with our low-latency optimization, most callers cannot distinguish it from a human.
+#### Does it sound like a robot?
+No. We use high-fidelity neural voices with natural breathing and realistic tonality. Tuned for low-latency response. Most callers cannot tell the difference.
 
-### What happens if the AI gets stuck?
-We build "Guardrail Logic" into every agent. If the AI encounters a question it cannot answer, it is programmed to politely offer a transfer to a live operator or take a detailed message for a priority callback.
+#### What if the AI gets stuck?
+Every agent has guardrail logic. If it hits a question outside its scope, it offers a transfer to a live operator or takes a detailed message for priority callback. It does not guess.
 
-### Does this replace my CRM?
-No, it enhances it. The AI acts as the front-end data entry, injecting clean, qualified lead data and recorded transcripts directly into your existing CRM (GoHighLevel, HubSpot, etc.).
+#### Does this replace my CRM?
+No. It feeds your CRM. Call recordings, transcripts, and lead details get injected directly into GoHighLevel, HubSpot, or whatever you run. Cleaner data than your staff enters manually.
 
-### Is my data secure?
-As a **Cybersecurity Engineer-led firm**, security is our baseline. We ensure all integrations use encrypted API keys and follow best practices for data handling.
+#### Is my data secure?
+We are a **Cybersecurity Engineer-led firm**. All integrations use encrypted API keys with scoped permissions. Your call data, CRM credentials, and customer PII are handled with the same rigor we apply to security engagements.
+
+#### What if the caller has a thick accent?
+The speech-to-text engine (Deepgram) handles accents well. Clear cellular or landline connections produce the best results. Heavy background noise is the bigger factor.
+
+#### Can it handle multiple calls at once?
+Yes. Unlike a human receptionist, the AI handles concurrent calls with no degradation. Ten calls at midnight get the same quality as one call at noon.
+
+#### What if the caller wants a real person?
+The agent is configured to offer a live transfer on request. If no one is available, it takes a message and logs it to your CRM with full context for a fast callback.
+
+#### What happens during an outage?
+We monitor Retell, VAPI, Twilio, and GHL uptime on our [Status Dashboard](/tools/status-dashboard/). If a platform goes down, calls fail over to your existing voicemail or forwarding number. Outages are rare but we plan for them.
+
+#### Will it say things my business would never say?
+No. Every agent runs on strict system prompts with defined boundaries. It cannot offer discounts, invent services, or quote prices unless we explicitly configure those responses. If it does not know, it escalates.
+
+#### How long does setup take?
+20-30 hours depending on complexity. We build the logic, configure CRM integration, test edge cases, and tune latency before a single live call. This is engineering, not a template install.
+
+#### Can it book on my calendar?
+Yes. The agent checks your live calendar availability in real-time and books directly. Supports GoHighLevel calendars natively. No double-booking. No back-and-forth.
+
+#### What languages does it support?
+Multiple. If your customer base speaks Spanish, French, or other languages, we build a dedicated agent tuned for that language. Mixed-language calls work but dedicated bots perform better.
+
+#### Do I own the phone number?
+The number is provisioned through Twilio under your account or ours depending on your preference. You retain control of your number if you ever leave.
+
+#### What does "sub-500ms response" mean?
+It means the AI responds in under half a second after you stop speaking. That is fast enough to feel like a real conversation. Most competitors run 1-2 seconds of dead air. Callers hang up during that silence.
 
 ---
 
