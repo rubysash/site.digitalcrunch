@@ -28,4 +28,6 @@ draft: true
 - Needed to add .URL | safeURL to get tel links to show up
 - click to call "buttons" do not work if a a widget (transferring)
 - modified theme\partials\footer.html for footer layout and menu.en.toml
-- 
+
+## Bot FAQ
+

@@ -81,3 +81,16 @@ These colors are used in our logo and theme.
     </tr>
   </tbody>
 </table>
+
+
+## Color Usage
+
+Background (Obsidian #0E1219): The void. The non-negotiable base.
+
+Surface (Charcoal #1E293A / Gunmetal #2A374E): Used for card backgrounds in /research/ and container blocks in /services/. This creates the "layered hardware" look.
+
+The "Active" State (Electric Green #00FF44): Reserved strictly for System Status and Primary CTAs. If everything glows, nothing is important.
+
+The "Data" Layer (Azure #439CF4): Use this for links within your research articles and for technical schematics. Azure feels "Enterprise/Cloud," while Electric Green feels "Action/Live."
+
+The Warning/Alert (Buttercream #FFF8C5): Perfect for "Risk Highlights" or "The Problem" sections on your landing pages. It’s a softer, more sophisticated alert than a "Red" which screams "Danger" too loudly.
