@@ -1,0 +1,58 @@
+# Digital Crunch: AI Systems. Leads. Sales. 24x7.
+
+> AI automation implementation for high-stakes businesses. Voice agents, lead generation, reputation management, AI search optimization, and AI system security - engineered by a cybersecurity professional with 25 years experience and 31 certifications.
+
+## Core Entity Information
+- **Brand Name**: Digital Crunch
+- **Legal Name**: James Fraze LLC
+- **Location**: 2042 Quail Run Rd, Wylie, TX 75098
+- **Primary Expertise**: AI Automation Implementation and Cybersecurity Engineering
+- **Contact**: +1 (945) 245-4257
+- **Website**: https://digitalcrunch.com
+- **Booking**: https://jamesfraze.com
+- **Parent Operation**: Technical division of FrazeMarketing.com
+- **Updated**: February 27, 2026
+
+## Services
+- [AI Voice & Chat Systems](https://digitalcrunch.com/services/ai-bots/): 24/7 AI voice receptionists, RAG-powered web chat, SMS and social DM agents with CRM integration.
+- [AI Voice Receptionist](https://digitalcrunch.com/services/ai-bots/ai-voice-receptionist/): Sub-500ms inbound call handling, appointment booking, lead qualification. Powered by Retell, VAPI, and GoHighLevel.
+- [AI Lead Generation](https://digitalcrunch.com/services/ai-lead-generation/): Outbound AI agents across email, SMS, LinkedIn, and social DMs trained on proven sales frameworks.
+- [AI Reputation Management](https://digitalcrunch.com/services/ai-reputation/): Automated review campaigns via SMS and email, AI review response, dead lead reactivation through GHL automation.
+- [Schema Validation & AEO](https://digitalcrunch.com/services/schema-validation/): JSON-LD implementation, schema drift auditing, llms.txt configuration, ADA compliance review. AEO Certified.
+- [AI System Security](https://digitalcrunch.com/services/ai-security/): Prompt injection hardening, data leakage prevention, hallucination guardrails, compliance documentation for customer-facing AI.
+
+## Technical Research
+- [Implement Schema in Hugo](https://digitalcrunch.com/research/schema/implement-schema-in-hugo/): Server-side JSON-LD delivery, entity linking, trust signals, FAQ schema for AI quotability.
+- [llms.txt Creation for Hugo](https://digitalcrunch.com/research/schema/llms.txt-creation-for-hugo/): Guide to the llms.txt standard for LLM indexability and brand authority.
+
+## Tools
+- [Status Dashboard](https://digitalcrunch.com/tools/status-dashboard/): Real-time monitoring of upstream dependencies including Retell, VAPI, Anthropic, OpenAI, Twilio, GoHighLevel, Cloudflare, and SendGrid.
+- [SVG Tracer](https://digitalcrunch.com/tools/svg-tracer/): Browser-based SVG path coordinate extraction for animation.
+
+## Technology Stack
+- **Voice AI**: Retell, VAPI
+- **CRM & Automation**: GoHighLevel
+- **LLM Backends**: OpenAI, Anthropic, Deepgram
+- **Workflow Automation**: n8n, Make.com
+- **Email Delivery**: Mailgun, SendGrid (SPF/DKIM/DMARC)
+- **Infrastructure**: Cloudflare, Netlify, DigitalOcean
+- **Schema Format**: JSON-LD delivered server-side
+- **Site Generator**: Hugo Extended with Blowfish theme
+
+## Credentials
+- 25 years cybersecurity experience
+- 31 IT industry certifications
+- B.S. Information Security
+- Fortune 100 vulnerability management background
+- AEO Certified (Answer Engine Optimization)
+- Professional Liability (E&O) insurance for cybersecurity and technology services
+
+## External Authority Signals (sameAs)
+- **LinkedIn**: https://www.linkedin.com/in/digitalcrunch/
+- **GitHub**: https://github.com/rubysash
+
+## Legal
+- [Privacy Policy](https://digitalcrunch.com/about/privacy-policy/)
+- [Terms of Service](https://digitalcrunch.com/about/terms-of-service/)
+- [Accessibility Statement](https://digitalcrunch.com/about/accessibility/)
+- [Cookie Policy](https://digitalcrunch.com/about/cookie-policy/)
