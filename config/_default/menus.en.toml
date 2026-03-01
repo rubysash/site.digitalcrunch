@@ -77,9 +77,63 @@
 # 40
 #--------
 [[main]]
-  name = "About"
-  pageRef = "about"
+  name = "FAQ"
+  pageRef = "faq"
   weight = 40
+
+[[main]]
+  name = "Squeeze & Landing Pages"
+  parent = "FAQ"
+  pageRef = "faq/squeeze-landing-pages"
+  weight = 401
+
+[[main]]
+  name = "Follow-Up Systems"
+  parent = "FAQ"
+  pageRef = "faq/follow-up-systems"
+  weight = 402
+
+[[main]]
+  name = "Email Deliverability"
+  parent = "FAQ"
+  pageRef = "faq/email-deliverability"
+  weight = 403
+
+[[main]]
+  name = "Schema & JSON-LD"
+  parent = "FAQ"
+  pageRef = "faq/schema-json-ld"
+  weight = 404
+
+[[main]]
+  name = "llms.txt"
+  parent = "FAQ"
+  pageRef = "faq/llms-txt"
+  weight = 405
+
+[[main]]
+  name = "Hugo Websites"
+  parent = "FAQ"
+  pageRef = "faq/hugo-websites"
+  weight = 406
+
+[[main]]
+  name = "Speed Score"
+  parent = "FAQ"
+  pageRef = "faq/speed-score"
+  weight = 407
+
+[[main]]
+  name = "Voice Receptionist"
+  parent = "FAQ"
+  pageRef = "faq/voice-receptionist"
+  weight = 408
+
+[[main]]
+  name = "Voice AI Bots"
+  parent = "FAQ"
+  pageRef = "faq/voice-ai-bots"
+  weight = 409
 
 #--------
 # 50
@@ -118,6 +172,11 @@
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
+
+ [[footer]]
+   name = "About"
+   pageRef = "about"
+   weight = 20
 
  [[footer]]
    name = "Privacy Policy"
