@@ -1,8 +1,16 @@
 ---
 title: "FAQ - Follow-Up Systems (SMS & Email)"
 description: "Frequently asked questions about automated follow-up systems, SMS sequences, and email nurture campaigns built in GoHighLevel."
-draft: true
+draft: false
 date: 2026-03-01
+showTableOfContents: true
+showHero: true
+heroStyle: background
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+authors:
+  - "jamesfraze"
 tags: ["faq", "follow-up", "sms", "email", "ghl", "automation"]
 ---
 

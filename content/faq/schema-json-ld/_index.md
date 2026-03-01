@@ -1,8 +1,16 @@
 ---
 title: "FAQ - Schema & JSON-LD"
 description: "Frequently asked questions about schema markup, JSON-LD structured data, rich results, and search engine optimization through structured data."
-draft: true
+draft: false
 date: 2026-03-01
+showTableOfContents: true
+showHero: true
+heroStyle: background
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+authors:
+  - "jamesfraze"
 tags: ["faq", "schema", "json-ld", "structured-data", "seo", "aeo"]
 ---
 

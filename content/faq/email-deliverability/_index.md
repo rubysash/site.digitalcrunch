@@ -1,8 +1,16 @@
 ---
 title: "FAQ - Email Sending & Deliverability"
 description: "Frequently asked questions about email deliverability, SPF, DKIM, DMARC, domain reputation, and inbox placement."
-draft: true
+draft: false
 date: 2026-03-01
+showTableOfContents: true
+showHero: true
+heroStyle: background
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+authors:
+  - "jamesfraze"
 tags: ["faq", "email", "deliverability", "spf", "dkim", "dmarc", "ghl"]
 ---
 

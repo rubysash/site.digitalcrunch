@@ -1,8 +1,16 @@
 ---
 title: "FAQ - Speed Score & Performance"
 description: "Frequently asked questions about PageSpeed scores, CDN delivery, Core Web Vitals, and why site performance matters for search rankings and conversions."
-draft: true
+draft: false
 date: 2026-03-01
+showTableOfContents: true
+showHero: true
+heroStyle: background
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+authors:
+  - "jamesfraze"
 tags: ["faq", "pagespeed", "performance", "cdn", "core-web-vitals"]
 ---
 

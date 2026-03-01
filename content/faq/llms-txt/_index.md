@@ -1,8 +1,16 @@
 ---
 title: "FAQ - llms.txt"
 description: "Frequently asked questions about llms.txt, the machine-readable file standard for AI indexability and LLM-friendly website structure."
-draft: true
+draft: false
 date: 2026-03-01
+showTableOfContents: true
+showHero: true
+heroStyle: background
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+authors:
+  - "jamesfraze"
 tags: ["faq", "llms-txt", "aeo", "ai-search", "structured-data"]
 ---
 

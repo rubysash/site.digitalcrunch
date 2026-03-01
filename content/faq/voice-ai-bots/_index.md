@@ -1,8 +1,16 @@
 ---
 title: "FAQ - Voice AI Bots (Outbound)"
 description: "Frequently asked questions about outbound AI voice bots, automated calling campaigns, and voice-based lead generation and follow-up."
-draft: true
+draft: false
 date: 2026-03-01
+showTableOfContents: true
+showHero: true
+heroStyle: background
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+authors:
+  - "jamesfraze"
 tags: ["faq", "voice-ai", "outbound-voice", "ai-bots", "lead-generation", "ghl"]
 ---
 

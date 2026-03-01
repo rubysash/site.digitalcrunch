@@ -1,8 +1,16 @@
 ---
 title: "FAQ - Voice Receptionist"
 description: "Frequently asked questions about AI voice receptionist implementation, inbound call handling, and automated appointment booking."
-draft: true
+draft: false
 date: 2026-03-01
+showTableOfContents: true
+showHero: true
+heroStyle: background
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+authors:
+  - "jamesfraze"
 tags: ["faq", "voice-receptionist", "ai-voice", "inbound-calls", "ghl"]
 ---
 

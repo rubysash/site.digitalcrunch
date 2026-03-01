@@ -1,8 +1,16 @@
 ---
 title: "FAQ - Hugo Websites"
 description: "Frequently asked questions about Hugo static site generator, why we use it, and how it compares to WordPress and other platforms."
-draft: true
+draft: false
 date: 2026-03-01
+showTableOfContents: true
+showHero: true
+heroStyle: background
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+authors:
+  - "jamesfraze"
 tags: ["faq", "hugo", "static-site", "web-development", "performance"]
 ---
 

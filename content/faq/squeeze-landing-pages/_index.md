@@ -1,8 +1,16 @@
 ---
 title: "FAQ - Squeeze Pages & Landing Pages"
 description: "Frequently asked questions about squeeze pages, landing pages, and lead capture funnels built in GoHighLevel."
-draft: true
+draft: false
 date: 2026-03-01
+showTableOfContents: true
+showHero: true
+heroStyle: background
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+authors:
+  - "jamesfraze"
 tags: ["faq", "landing-pages", "squeeze-pages", "ghl"]
 ---
 
