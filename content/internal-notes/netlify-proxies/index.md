@@ -46,7 +46,7 @@ All rules proxy the status dashboard's API calls:
 | Local Path | Proxies To | Used By |
 |---|---|---|
 | `/api/status/retell` | `status.retellai.com/api/v2/summary.json` | Status Dashboard |
-| `/api/status/anthropic` | `status.anthropic.com/api/v2/summary.json` | Status Dashboard |
+| `/api/status/anthropic` | `status.claude.com/api/v2/summary.json` | Status Dashboard |
 | `/api/status/deepgram` | `status.deepgram.com/api/v2/summary.json` | Status Dashboard |
 | `/api/status/gcp` | `status.cloud.google.com/incidents.json` | Status Dashboard |
 | `/api/status/sendgrid` | `status.sendgrid.com/api/v2/summary.json` | Status Dashboard |
@@ -96,6 +96,33 @@ Netlify proxy rewrites run at the CDN level on infrastructure we control. No thi
 ## Security Notes
 
 Each rule maps one fixed path to one fixed external URL. Users cannot control the destination. There is no wildcard passthrough and no open proxy. Someone could hit the proxy endpoints to scrape status APIs through your domain (consuming your Netlify bandwidth), but they could also just hit those status APIs directly.
+
+## Gotcha: Upstream Redirects
+
+Netlify proxy rewrites do NOT follow redirects. If the external URL returns a 301 or 302, Netlify passes that redirect response straight through to the browser. The browser then tries to follow the redirect to a different origin, which fails due to CORS or causes unexpected behavior.
+
+This happened with Anthropic. Their status API moved from `status.anthropic.com` to `status.claude.com`. The old URL started returning 302. The Netlify proxy passed the 302 through, the browser tried to follow it cross-origin, and the dashboard card broke with 400 errors.
+
+The fix is simple: update the `_redirects` rule to point to the final URL. But the failure mode is not obvious. The dashboard card just shows "Fetch Error" with no clear indication that a redirect is the cause.
+
+**How to diagnose:** If a single card breaks while others work, test the proxy URL directly:
+
+```bash
+curl -sI https://digitalcrunch.com/api/status/anthropic
+```
+
+If you see `HTTP 302` with a `location:` header, the upstream moved. Update the `_redirects` rule to the new URL from the `location` header.
+
+**How to check all at once:**
+
+```bash
+for svc in retell anthropic deepgram gcp sendgrid netlify openai twilio cloudflare github digitalocean; do
+  code=$(curl -s -o /dev/null -w "%{http_code}" "https://digitalcrunch.com/api/status/$svc")
+  echo "$svc: $code"
+done
+```
+
+Everything should return 200. Anything else needs investigation.
 
 ## Limitations
 
