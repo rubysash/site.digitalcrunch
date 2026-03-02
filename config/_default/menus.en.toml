@@ -65,9 +65,9 @@
   weight = 113
 
 [[main]]
-  name = "Custom Automation"
+  name = "Custom Scripting"
   parent = "Services"
-  pageRef = "services/custom-automation"
+  pageRef = "services/custom-scripting"
   weight = 114
 
 #--------

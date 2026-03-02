@@ -53,7 +53,7 @@ summary: |
 
 ## The Difference
 
-[Custom Automation](/services/custom-automation/) connects your systems. Data moves from A to B based on rules you define. If this, then that. Deterministic. Predictable.
+[Custom Scripting](/services/custom-scripting/) connects your systems. Data moves from A to B based on rules you define. If this, then that. Deterministic. Predictable.
 
 AI Automation adds a brain to the workflow. The AI reads unstructured data, interprets it, makes a judgment call, and routes it accordingly. It does not just move data - it understands it.
 
@@ -117,7 +117,7 @@ The AI does not replace your voice. It produces a working draft that your team r
 
 ## The AI Automation Stack
 
-We build AI workflows on the same platforms we use for custom automation - n8n, Make, and GHL - but with AI models wired into the decision points.
+We build AI workflows on the same platforms we use for custom scripting - n8n, Make, and GHL - but with AI models wired into the decision points.
 
 | Component | What It Does |
 |---|---|
@@ -168,9 +168,9 @@ This is where cybersecurity engineering meets AI implementation. We do not just 
 
 ---
 
-## AI Automation vs. Custom Automation
+## AI Automation vs. Custom Scripting
 
-| | Custom Automation | AI Automation |
+| | Custom Scripting | AI Automation |
 |---|---|---|
 | **Input** | Structured data (fields, triggers, webhooks) | Unstructured data (text, email, voice, documents) |
 | **Logic** | If-then rules you define | AI interprets and decides |
@@ -178,7 +178,7 @@ This is where cybersecurity engineering meets AI implementation. We do not just 
 | **Best for** | System wiring, data sync, reporting | Classification, summarization, generation |
 | **Example** | New invoice triggers payment reminder | AI reads invoice, flags discrepancies, routes to AP |
 
-Most businesses need both. Custom automation handles the plumbing. AI automation handles the thinking. We build them as a unified system.
+Most businesses need both. Custom scripting handles the plumbing. AI automation handles the thinking. We build them as a unified system.
 
 ---
 

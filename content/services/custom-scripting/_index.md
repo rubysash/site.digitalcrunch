@@ -1,6 +1,6 @@
 ---
-title: "Custom Automation"
-description: "Custom automation builds using n8n, Make, Zapier, Python, Bash, Perl, Docker, Azure Functions, AWS Lambda, Google Sheets, and Apify. We connect your systems so they run without you."
+title: "Custom Scripting"
+description: "Custom scripting and system wiring using n8n, Make, Zapier, Python, Bash, Perl, Docker, Azure Functions, AWS Lambda, Google Sheets, and Apify. We connect your systems so they run without you."
 layout: "full"
 showAuthor: false
 showTableOfContents: true
@@ -29,7 +29,7 @@ summary: |
 
 <div class="services-grid">
 <div class="services-grid__card">
-  <div class="services-grid__card-header">Custom Automation</div>
+  <div class="services-grid__card-header">Custom Scripting</div>
   <div class="services-grid__card-body">
     <div class="services-grid__benefits">
       <div class="services-grid__label">Your Competitors</div>
@@ -168,7 +168,7 @@ You can. A full-time developer costs $80k-$120k per year. They build what you ne
 
 Our model is different. We scope the automation, build it, test it, deploy it, and hand you the documentation. If it breaks, we fix it. If you need changes, we modify it. You pay for engineering, not a salary.
 
-Most businesses need 40-80 hours of custom automation work, not a full-time hire. After the build, maintenance is measured in hours per month, not hours per day.
+Most businesses need 40-80 hours of custom scripting work, not a full-time hire. After the build, maintenance is measured in hours per month, not hours per day.
 
 ---
 

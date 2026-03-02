@@ -1,6 +1,6 @@
 # Digital Crunch: AI Systems. Leads. Sales. 24x7.
 
-> AI automation implementation for high-stakes businesses. Voice agents, lead generation, reputation management, AI search optimization, custom automation, and AI system security - engineered by a cybersecurity professional with 25 years experience and 31 certifications.
+> AI automation implementation for high-stakes businesses. Voice agents, lead generation, reputation management, AI search optimization, custom scripting, and AI system security - engineered by a cybersecurity professional with 25 years experience and 31 certifications.
 
 ## Core Entity Information
 - **Brand Name**: Digital Crunch
@@ -21,7 +21,7 @@
 - [Schema Validation & AEO](https://digitalcrunch.com/services/schema-validation/): JSON-LD implementation, schema drift auditing, llms.txt configuration, ADA compliance review. AEO Certified.
 - [AI System Security](https://digitalcrunch.com/services/ai-security/): Prompt injection hardening, data leakage prevention, hallucination guardrails, compliance documentation for customer-facing AI.
 - [AI Automation](https://digitalcrunch.com/services/ai-automation/): Intelligent workflow automation where AI reads, classifies, decides, and acts on business data. Lead scoring, document processing, review response, email triage, data enrichment, and content generation with guardrails and confidence scoring.
-- [Custom Automation](https://digitalcrunch.com/services/custom-automation/): System-to-system wiring using n8n, Make, Zapier, Python, Bash, Perl, Docker, Azure Functions, AWS Lambda, Google Sheets, and Apify. API integrations, serverless functions, data sync, and scripting - no AI required.
+- [Custom Scripting](https://digitalcrunch.com/services/custom-scripting/): System-to-system wiring using n8n, Make, Zapier, Python, Bash, Perl, Docker, Azure Functions, AWS Lambda, Google Sheets, and Apify. API integrations, serverless functions, data sync, and scripting - no AI required.
 
 ## Technical Research
 - [Implement Schema in Hugo](https://digitalcrunch.com/research/schema/implement-schema-in-hugo/): Server-side JSON-LD delivery, entity linking, trust signals, FAQ schema for AI quotability.
