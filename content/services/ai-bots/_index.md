@@ -1,5 +1,6 @@
 ---
 title: "AI Bots & Automated Agents"
+date: 2026-02-15
 description: "Expert implementation of natural language AI bots including Voice Receptionists, SMS agents, and multi-channel chat automation for businesses in Wylie, TX."
 layout: "full"
 showAuthor: false

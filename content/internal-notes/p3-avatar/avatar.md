@@ -1,6 +1,7 @@
 ---
 title: "IDEAL CLIENT AVATAR: THE ERODING EMPIRE BUILDER"
 description: "Pain points and psychology of our ideal buyer"
+draft: true
 ---
 
 ### 1. IDENTITY & INFRASTRUCTURE

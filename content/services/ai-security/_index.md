@@ -1,5 +1,6 @@
 ---
 title: "AI System Security"
+date: 2026-02-15
 description: "Prompt injection hardening, data leakage prevention, and compliance documentation for customer-facing AI systems."
 layout: "full"
 draft: false

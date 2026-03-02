@@ -1,5 +1,6 @@
 ---
 title: "AI Reputation Management"
+date: 2026-02-15
 description: "Automated review generation, AI-powered response management, and sentiment monitoring across Google, Yelp, and social platforms."
 layout: "full"
 draft: false

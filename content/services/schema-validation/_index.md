@@ -1,5 +1,6 @@
 ---
 title: "Schema Validation & AEO"
+date: 2026-02-15
 description: "Schema validation, JSON-LD implementation, llms.txt configuration, and Answer Engine Optimization for AI search dominance."
 layout: "full"
 showAuthor: false

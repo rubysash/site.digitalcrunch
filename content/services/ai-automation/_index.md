@@ -1,5 +1,6 @@
 ---
 title: "AI Automation"
+date: 2026-03-01
 description: "Intelligent workflow automation where AI reads, classifies, decides, and acts on your business data. Not just plumbing - thinking."
 layout: "full"
 showAuthor: false

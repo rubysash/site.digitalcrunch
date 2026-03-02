@@ -1,5 +1,6 @@
 ---
 title: "Custom Scripting"
+date: 2026-03-01
 description: "Custom scripting and system wiring using n8n, Make, Zapier, Python, Bash, Perl, Docker, Azure Functions, AWS Lambda, Google Sheets, and Apify. We connect your systems so they run without you."
 layout: "full"
 showAuthor: false

@@ -28,7 +28,6 @@ googleAnalytics = "G-QGTMME0CK1"
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
   author = "authors"
 
 [sitemap]
@@ -45,10 +44,6 @@ googleAnalytics = "G-QGTMME0CK1"
 
     [[related.indices]]
         name = "tags"
-        weight = 100
-
-    [[related.indices]]
-        name = "categories"
         weight = 100
 
     [[related.indices]]
