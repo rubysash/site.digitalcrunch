@@ -1,6 +1,6 @@
 # Digital Crunch: AI Systems. Leads. Sales. 24x7.
 
-> AI automation implementation for high-stakes businesses. Voice agents, lead generation, reputation management, AI search optimization, and AI system security - engineered by a cybersecurity professional with 25 years experience and 31 certifications.
+> AI automation implementation for high-stakes businesses. Voice agents, lead generation, reputation management, AI search optimization, custom automation, and AI system security - engineered by a cybersecurity professional with 25 years experience and 31 certifications.
 
 ## Core Entity Information
 - **Brand Name**: Digital Crunch
@@ -11,7 +11,7 @@
 - **Website**: https://digitalcrunch.com
 - **Booking**: https://jamesfraze.com
 - **Parent Operation**: Technical division of FrazeMarketing.com
-- **Updated**: February 27, 2026
+- **Updated**: March 1, 2026
 
 ## Services
 - [AI Voice & Chat Systems](https://digitalcrunch.com/services/ai-bots/): 24/7 AI voice receptionists, RAG-powered web chat, SMS and social DM agents with CRM integration.
@@ -20,10 +20,22 @@
 - [AI Reputation Management](https://digitalcrunch.com/services/ai-reputation/): Automated review campaigns via SMS and email, AI review response, dead lead reactivation through GHL automation.
 - [Schema Validation & AEO](https://digitalcrunch.com/services/schema-validation/): JSON-LD implementation, schema drift auditing, llms.txt configuration, ADA compliance review. AEO Certified.
 - [AI System Security](https://digitalcrunch.com/services/ai-security/): Prompt injection hardening, data leakage prevention, hallucination guardrails, compliance documentation for customer-facing AI.
+- [Custom Automation](https://digitalcrunch.com/services/custom-automation/): Custom workflow builds using n8n, Make, Zapier, Python, Bash, Perl, Docker, Azure Functions, AWS Lambda, Google Sheets, and Apify. API integrations, serverless functions, data pipelines, and system-to-system wiring.
 
 ## Technical Research
 - [Implement Schema in Hugo](https://digitalcrunch.com/research/schema/implement-schema-in-hugo/): Server-side JSON-LD delivery, entity linking, trust signals, FAQ schema for AI quotability.
 - [llms.txt Creation for Hugo](https://digitalcrunch.com/research/schema/llms.txt-creation-for-hugo/): Guide to the llms.txt standard for LLM indexability and brand authority.
+
+## Quick FAQs
+- [Squeeze Pages & Landing Pages](https://digitalcrunch.com/research/quick-faqs/squeeze-landing-pages/): Lead capture funnels, GHL page builds, A/B testing, lead magnets, form automation.
+- [Follow-Up Systems](https://digitalcrunch.com/research/quick-faqs/follow-up-systems/): Automated SMS and email sequences, A2P 10DLC compliance, speed to lead, reactivation campaigns.
+- [Email Deliverability](https://digitalcrunch.com/research/quick-faqs/email-deliverability/): SPF, DKIM, DMARC, domain warmup, blacklist recovery, sending domain strategy.
+- [Schema & JSON-LD](https://digitalcrunch.com/research/quick-faqs/schema-json-ld/): Structured data implementation, schema drift, rich results, ADA compliance, AI search citations.
+- [llms.txt](https://digitalcrunch.com/research/quick-faqs/llms-txt/): The llms.txt standard for AI indexability, implementation, and maintenance.
+- [Hugo Websites](https://digitalcrunch.com/research/quick-faqs/hugo-websites/): Static site architecture, Hugo vs WordPress, Blowfish theme, CDN hosting, GHL integration.
+- [Speed Score & Performance](https://digitalcrunch.com/research/quick-faqs/speed-score/): PageSpeed 100s, Core Web Vitals, CDN delivery, mobile-first indexing.
+- [Voice Receptionist](https://digitalcrunch.com/research/quick-faqs/voice-receptionist/): Inbound AI call handling, calendar booking, CRM integration, guardrails, multi-language support.
+- [Voice AI Bots](https://digitalcrunch.com/research/quick-faqs/voice-ai-bots/): Outbound AI calling, lead follow-up, appointment confirmation, TCPA compliance, objection handling.
 
 ## Free Tools
 - [Status Dashboard](https://digitalcrunch.com/research/free-tools/status-dashboard/): Real-time monitoring of upstream dependencies including Retell, VAPI, Anthropic, OpenAI, Twilio, GoHighLevel, Cloudflare, and SendGrid.
@@ -33,7 +45,10 @@
 - **Voice AI**: Retell, VAPI
 - **CRM & Automation**: GoHighLevel
 - **LLM Backends**: OpenAI, Anthropic, Deepgram
-- **Workflow Automation**: n8n, Make.com
+- **Workflow Automation**: n8n, Make.com, Zapier
+- **Custom Code**: Python, Bash, Perl, Google Apps Script
+- **Serverless**: Azure Functions, AWS Lambda, Google Cloud Functions, Docker
+- **Data Collection**: Apify, custom scrapers
 - **Email Delivery**: Mailgun, SendGrid (SPF/DKIM/DMARC)
 - **Infrastructure**: Cloudflare, Netlify, DigitalOcean
 - **Schema Format**: JSON-LD delivered server-side
