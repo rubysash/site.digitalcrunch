@@ -25,9 +25,9 @@
 - [Implement Schema in Hugo](https://digitalcrunch.com/research/schema/implement-schema-in-hugo/): Server-side JSON-LD delivery, entity linking, trust signals, FAQ schema for AI quotability.
 - [llms.txt Creation for Hugo](https://digitalcrunch.com/research/schema/llms.txt-creation-for-hugo/): Guide to the llms.txt standard for LLM indexability and brand authority.
 
-## Tools
-- [Status Dashboard](https://digitalcrunch.com/tools/status-dashboard/): Real-time monitoring of upstream dependencies including Retell, VAPI, Anthropic, OpenAI, Twilio, GoHighLevel, Cloudflare, and SendGrid.
-- [SVG Tracer](https://digitalcrunch.com/tools/svg-tracer/): Browser-based SVG path coordinate extraction for animation.
+## Free Tools
+- [Status Dashboard](https://digitalcrunch.com/research/free-tools/status-dashboard/): Real-time monitoring of upstream dependencies including Retell, VAPI, Anthropic, OpenAI, Twilio, GoHighLevel, Cloudflare, and SendGrid.
+- [SVG Tracer](https://digitalcrunch.com/research/free-tools/svg-tracer/): Browser-based SVG path coordinate extraction for animation.
 
 ## Technology Stack
 - **Voice AI**: Retell, VAPI

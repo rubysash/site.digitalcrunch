@@ -114,7 +114,7 @@ These are the platforms running your AI systems. Each one has integration points
 | **Cloudflare** | DNS, CDN, DDoS | WAF rules, bot management, rate limiting on public endpoints |
 | **SendGrid** | Email delivery | SPF/DKIM/DMARC, domain authentication, sending reputation |
 
-We monitor upstream availability across this stack in real-time on our [Status Dashboard](/tools/status-dashboard/).
+We monitor upstream availability across this stack in real-time on our [Status Dashboard](/research/free-tools/status-dashboard/).
 
 ---
 

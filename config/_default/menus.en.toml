@@ -58,6 +58,12 @@
   pageRef = "services/ai-security"
   weight = 112
 
+[[main]]
+  name = "Custom Automation"
+  parent = "Services"
+  pageRef = "services/custom-automation"
+  weight = 114
+
 #--------
 # 30
 #--------
@@ -78,14 +84,11 @@
   pageRef = "research/quick-faqs"
   weight = 20
 
-
-#--------
-# 50
-#--------
 [[main]]
-  name = "Tools"
-  pageRef = "tools"
-  weight = 50
+  name = "Free Tools"
+  parent = "Research"
+  pageRef = "research/free-tools"
+  weight = 30
 
 
 

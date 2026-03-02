@@ -124,7 +124,7 @@ Yes. Unlike a human receptionist, the AI handles concurrent calls with no degrad
 The agent is configured to offer a live transfer on request. If no one is available, it takes a message and logs it to your CRM with full context for a fast callback.
 
 #### What happens during an outage?
-We monitor Retell, VAPI, Twilio, and GHL uptime on our [Status Dashboard](/tools/status-dashboard/). If a platform goes down, calls fail over to your existing voicemail or forwarding number. Outages are rare but we plan for them.
+We monitor Retell, VAPI, Twilio, and GHL uptime on our [Status Dashboard](/research/free-tools/status-dashboard/). If a platform goes down, calls fail over to your existing voicemail or forwarding number. Outages are rare but we plan for them.
 
 #### Will it say things my business would never say?
 No. Every agent runs on strict system prompts with defined boundaries. It cannot offer discounts, invent services, or quote prices unless we explicitly configure those responses. If it does not know, it escalates.
