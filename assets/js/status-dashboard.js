@@ -56,6 +56,7 @@ async function dnsProbe(resolver) {
   const r = await fetch(resolver.url, {
     signal: ac.signal,
     headers: resolver.headers || {},
+    cache: 'no-store',
   });
   clearTimeout(timer);
 
@@ -154,7 +155,7 @@ function fmtT(ts){ return new Date(ts).toLocaleTimeString('en-US',{hour:'2-digit
 async function fetchProxy(svc) {
   const ac = new AbortController();
   const t = setTimeout(() => ac.abort(), 10000);
-  const r = await fetch(svc.api, { signal: ac.signal });
+  const r = await fetch(svc.api, { signal: ac.signal, cache: 'no-store' });
   clearTimeout(t);
   if (!r.ok) throw new Error('HTTP ' + r.status);
   return r.json();
