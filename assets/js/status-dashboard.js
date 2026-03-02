@@ -12,96 +12,69 @@ const DNS_HISTORY_DISPLAY = 30;
 const DNS_SLOW_MS = 500;
 const DNS_TIMEOUT_MS = 5000;
 
-const PROXIES = [
-  url => 'https://corsproxy.io/?' + encodeURIComponent(url),
-  url => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url),
-];
-
 // ── API-MONITORED SERVICES ──
+// api paths are same-origin, proxied by Netlify _redirects
 const SERVICES = [
   // Column 1
-  { id:'retell', name:'Retell AI',    desc:'Voice AI Agents · Phone',            url:'https://status.retellai.com',        api:'https://status.retellai.com/api/v2/summary.json',        color:'#0ea5e9', icon:'RTL', col:1 },
-  { id:'anth',   name:'Anthropic',    desc:'Claude AI Models · API',             url:'https://status.anthropic.com',       api:'https://status.anthropic.com/api/v2/summary.json',       color:'#d97706', icon:'ANT', col:1 },
-  { id:'deepgram',name:'Deepgram',    desc:'Speech-to-Text · STT Engine',        url:'https://status.deepgram.com',        api:'https://status.deepgram.com/api/v2/summary.json',        color:'#13b886', icon:'DG',  col:1 },
-  { id:'gcp',    name:'Google Cloud', desc:'Gemini AI · GCP Infrastructure',     url:'https://status.cloud.google.com',    api:'https://status.cloud.google.com/incidents.json',         color:'#4285f4', icon:'GCP', col:1, isGoogle:true },
-  { id:'sendgrid',name:'SendGrid',    desc:'Email Delivery · Transactional Mail',url:'https://status.sendgrid.com',        api:'https://status.sendgrid.com/api/v2/summary.json',        color:'#1a82e2', icon:'SG',  col:1 },
-  { id:'netlify',name:'Netlify',      desc:'CDN · Hosting · Builds · DNS',       url:'https://www.netlifystatus.com',      api:'https://www.netlifystatus.com/api/v2/summary.json',      color:'#00c7b7', icon:'NTL', col:1 },
+  { id:'retell', name:'Retell AI',    desc:'Voice AI Agents · Phone',            url:'https://status.retellai.com',        api:'/api/status/retell',      color:'#0ea5e9', icon:'RTL', col:1 },
+  { id:'anth',   name:'Anthropic',    desc:'Claude AI Models · API',             url:'https://status.anthropic.com',       api:'/api/status/anthropic',   color:'#d97706', icon:'ANT', col:1 },
+  { id:'deepgram',name:'Deepgram',    desc:'Speech-to-Text · STT Engine',        url:'https://status.deepgram.com',        api:'/api/status/deepgram',    color:'#13b886', icon:'DG',  col:1 },
+  { id:'gcp',    name:'Google Cloud', desc:'Gemini AI · GCP Infrastructure',     url:'https://status.cloud.google.com',    api:'/api/status/gcp',         color:'#4285f4', icon:'GCP', col:1, isGoogle:true },
+  { id:'sendgrid',name:'SendGrid',    desc:'Email Delivery · Transactional Mail',url:'https://status.sendgrid.com',        api:'/api/status/sendgrid',    color:'#1a82e2', icon:'SG',  col:1 },
+  { id:'netlify',name:'Netlify',      desc:'CDN · Hosting · Builds · DNS',       url:'https://www.netlifystatus.com',      api:'/api/status/netlify',     color:'#00c7b7', icon:'NTL', col:1 },
   // Column 2
-  { id:'openai', name:'OpenAI',       desc:'ChatGPT · GPT-4 · DALL·E',          url:'https://status.openai.com',          api:'https://status.openai.com/api/v2/summary.json',          color:'#10b981', icon:'OAI', col:2 },
-  { id:'twilio', name:'Twilio',       desc:'SMS · Voice · Phone · Telecom',      url:'https://status.twilio.com',          api:'https://status.twilio.com/api/v2/summary.json',          color:'#e11d48', icon:'TWL', col:2 },
-  { id:'cf',     name:'Cloudflare',   desc:'CDN · DNS · Security · DDoS',        url:'https://www.cloudflarestatus.com',   api:'https://www.cloudflarestatus.com/api/v2/summary.json',   color:'#f59e0b', icon:'CF',  col:2 },
-  { id:'github', name:'GitHub',       desc:'Repos · Actions · CI/CD · Pages',    url:'https://www.githubstatus.com',       api:'https://www.githubstatus.com/api/v2/summary.json',       color:'#8b5cf6', icon:'GH',  col:2 },
-  { id:'do',     name:'DigitalOcean', desc:'Droplets · K8s · Spaces · Apps',     url:'https://status.digitalocean.com',    api:'https://status.digitalocean.com/api/v2/summary.json',    color:'#0080ff', icon:'DO',  col:2 },
+  { id:'openai', name:'OpenAI',       desc:'ChatGPT · GPT-4 · DALL·E',          url:'https://status.openai.com',          api:'/api/status/openai',      color:'#10b981', icon:'OAI', col:2 },
+  { id:'twilio', name:'Twilio',       desc:'SMS · Voice · Phone · Telecom',      url:'https://status.twilio.com',          api:'/api/status/twilio',      color:'#e11d48', icon:'TWL', col:2 },
+  { id:'cf',     name:'Cloudflare',   desc:'CDN · DNS · Security · DDoS',        url:'https://www.cloudflarestatus.com',   api:'/api/status/cloudflare',  color:'#f59e0b', icon:'CF',  col:2 },
+  { id:'github', name:'GitHub',       desc:'Repos · Actions · CI/CD · Pages',    url:'https://www.githubstatus.com',       api:'/api/status/github',      color:'#8b5cf6', icon:'GH',  col:2 },
+  { id:'do',     name:'DigitalOcean', desc:'Droplets · K8s · Spaces · Apps',     url:'https://status.digitalocean.com',    api:'/api/status/digitalocean',color:'#0080ff', icon:'DO',  col:2 },
 ];
 
 // ── DNS RESOLVERS (live DoH probes) ──
-// format: 'json' = DoH JSON API, 'wire' = RFC 8484 binary
-// corsOk: true = endpoint sends Access-Control-Allow-Origin (can fetch direct from browser)
 const DNS_RESOLVERS = [
   {
     id: 'dns_cf', name: 'Cloudflare', ip: '1.1.1.1', color: '#f59e0b', icon: 'CF',
     url: 'https://cloudflare-dns.com/dns-query?name=example.com&type=A',
     page: 'https://www.cloudflarestatus.com',
-    format: 'json', corsOk: true,
+    format: 'json',
     headers: { 'Accept': 'application/dns-json' },
   },
   {
     id: 'dns_google', name: 'Google', ip: '8.8.8.8', color: '#4285f4', icon: 'G',
     url: 'https://dns.google/resolve?name=example.com&type=A',
     page: 'https://status.cloud.google.com',
-    format: 'json', corsOk: true,
+    format: 'json',
     headers: {},
   },
 ];
 
-// Unified DNS probe: direct for CORS-friendly, corsproxy for the rest
+// DNS probe: direct fetch (both resolvers support CORS)
 async function dnsProbe(resolver) {
-  const attempts = [];
+  const ac = new AbortController();
+  const timer = setTimeout(() => ac.abort(), DNS_TIMEOUT_MS);
 
-  if (resolver.corsOk) {
-    attempts.push(resolver.url);
+  const r = await fetch(resolver.url, {
+    signal: ac.signal,
+    headers: resolver.headers || {},
+  });
+  clearTimeout(timer);
+
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+
+  if (resolver.format === 'json') {
+    const d = await r.json();
+    if (d.Status !== 0 || !d.Answer?.length) throw new Error('No answer');
+    return d.Answer[0].data;
   } else {
-    attempts.push('https://corsproxy.io/?' + encodeURIComponent(resolver.url));
-    attempts.push('https://api.allorigins.win/raw?url=' + encodeURIComponent(resolver.url));
+    const buf = await r.arrayBuffer();
+    if (buf.byteLength < 12) throw new Error('Empty response');
+    const view = new Uint8Array(buf);
+    const rcode = view[3] & 0x0f;
+    if (rcode !== 0) throw new Error('RCODE: ' + rcode);
+    const ancount = (view[6] << 8) | view[7];
+    if (ancount < 1) throw new Error('No answers');
+    return ancount + ' record' + (ancount > 1 ? 's' : '');
   }
-
-  let lastErr;
-  for (const fetchUrl of attempts) {
-    try {
-      const ac = new AbortController();
-      const timer = setTimeout(() => ac.abort(), DNS_TIMEOUT_MS);
-
-      const r = await fetch(fetchUrl, {
-        signal: ac.signal,
-        headers: resolver.corsOk ? resolver.headers : {},
-        // Note: custom headers through CORS proxy may be stripped, but the
-        // proxy URL itself triggers the right content-type from the upstream
-      });
-      clearTimeout(timer);
-
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-
-      if (resolver.format === 'json') {
-        const d = await r.json();
-        if (d.Status !== 0 || !d.Answer?.length) throw new Error('No answer');
-        return d.Answer[0].data;
-      } else {
-        // Wire format — parse binary DNS response
-        const buf = await r.arrayBuffer();
-        if (buf.byteLength < 12) throw new Error('Empty response');
-        const view = new Uint8Array(buf);
-        const rcode = view[3] & 0x0f;
-        if (rcode !== 0) throw new Error('RCODE: ' + rcode);
-        const ancount = (view[6] << 8) | view[7];
-        if (ancount < 1) throw new Error('No answers');
-        return ancount + ' record' + (ancount > 1 ? 's' : '');
-      }
-    } catch (e) {
-      lastErr = e;
-      continue;
-    }
-  }
-  throw lastErr || new Error('All attempts failed');
 }
 
 // ── MANUAL CHECK SERVICES ──
@@ -122,14 +95,12 @@ const MANUAL = [
 // ══════════════════════════════════════════
 const state = {};
 const history = {};
-const proxyIdx = {};
 let countdown = REFRESH;
 
 // Service state
 SERVICES.forEach(s => {
   state[s.id] = null;
   history[s.id] = loadHist(s.id);
-  proxyIdx[s.id] = 0;
 });
 
 // DNS state
@@ -178,24 +149,15 @@ function cardG(s){
 function fmtT(ts){ return new Date(ts).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'}); }
 
 // ══════════════════════════════════════════
-//  FETCH WITH CORS PROXY FALLBACK
+//  FETCH (same-origin via Netlify proxy)
 // ══════════════════════════════════════════
 async function fetchProxy(svc) {
-  const start = proxyIdx[svc.id] || 0;
-  for (let i = 0; i < PROXIES.length; i++) {
-    const idx = (start + i) % PROXIES.length;
-    try {
-      const ac = new AbortController();
-      const t = setTimeout(() => ac.abort(), 10000);
-      const r = await fetch(PROXIES[idx](svc.api), { signal: ac.signal });
-      clearTimeout(t);
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      const d = await r.json();
-      proxyIdx[svc.id] = idx;
-      return d;
-    } catch(e) { continue; }
-  }
-  throw new Error('All fetch methods failed');
+  const ac = new AbortController();
+  const t = setTimeout(() => ac.abort(), 10000);
+  const r = await fetch(svc.api, { signal: ac.signal });
+  clearTimeout(t);
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  return r.json();
 }
 
 // ══════════════════════════════════════════

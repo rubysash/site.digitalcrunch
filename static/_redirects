@@ -1,0 +1,13 @@
+# Status Dashboard API proxies
+# Netlify reverse-proxies these at the CDN level. No CORS issues.
+/api/status/retell      https://status.retellai.com/api/v2/summary.json       200!
+/api/status/anthropic   https://status.anthropic.com/api/v2/summary.json      200!
+/api/status/deepgram    https://status.deepgram.com/api/v2/summary.json       200!
+/api/status/gcp         https://status.cloud.google.com/incidents.json        200!
+/api/status/sendgrid    https://status.sendgrid.com/api/v2/summary.json       200!
+/api/status/netlify     https://www.netlifystatus.com/api/v2/summary.json     200!
+/api/status/openai      https://status.openai.com/api/v2/summary.json         200!
+/api/status/twilio      https://status.twilio.com/api/v2/summary.json         200!
+/api/status/cloudflare  https://www.cloudflarestatus.com/api/v2/summary.json  200!
+/api/status/github      https://www.githubstatus.com/api/v2/summary.json      200!
+/api/status/digitalocean https://status.digitalocean.com/api/v2/summary.json  200!
