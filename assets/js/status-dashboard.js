@@ -436,11 +436,20 @@ function renderAll() {
 // ══════════════════════════════════════════
 //  MAIN
 // ══════════════════════════════════════════
+function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
+
 async function refresh() {
-  await Promise.allSettled([
-    ...SERVICES.map(s => fetchSvc(s)),
-    ...DNS_RESOLVERS.map(r => probeDns(r)),
-  ]);
+  // Stagger requests to avoid hitting Netlify concurrent proxy limits.
+  // Fetch in batches of 3 with a small gap between batches.
+  const batch = 3;
+  for (let i = 0; i < SERVICES.length; i += batch) {
+    const chunk = SERVICES.slice(i, i + batch);
+    await Promise.allSettled(chunk.map(s => fetchSvc(s)));
+    renderAll();
+    if (i + batch < SERVICES.length) await delay(300);
+  }
+  // DNS probes are direct (not proxied), safe to run together
+  await Promise.allSettled(DNS_RESOLVERS.map(r => probeDns(r)));
   renderAll();
 }
 
