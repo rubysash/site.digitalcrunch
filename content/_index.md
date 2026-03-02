@@ -140,4 +140,56 @@ description: "AI automation implementation for $1M-$5M businesses. Voice agents,
   </div>
 </div>
 
+<div class="services-grid__card">
+  <div class="services-grid__card-header">
+    <a href="/services/ai-automation/">AI Automation</a>
+  </div>
+  <div class="services-grid__card-body">
+    <div class="services-grid__benefits">
+      <div class="services-grid__label">Your Competitors</div>
+      <ul>
+        <li>AI Reads Their Data</li>
+        <li>AI Makes the Decision</li>
+        <li>AI Acts on It</li>
+        <li>Humans Handle Exceptions</li>
+      </ul>
+    </div>
+    <div class="services-grid__cost">
+      <div class="services-grid__label">Where You Are Losing</div>
+      <ul>
+        <li>Staff Reads Every Email</li>
+        <li>Manual Lead Sorting</li>
+        <li>Hours on Data Entry</li>
+        <li>Decisions Wait on People</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="services-grid__card">
+  <div class="services-grid__card-header">
+    <a href="/services/custom-scripting/">Custom Scripting</a>
+  </div>
+  <div class="services-grid__card-body">
+    <div class="services-grid__benefits">
+      <div class="services-grid__label">Your Competitors</div>
+      <ul>
+        <li>Systems Talk to Each Other</li>
+        <li>Zero Manual Data Entry</li>
+        <li>Automated Reporting</li>
+        <li>Self-Healing Workflows</li>
+      </ul>
+    </div>
+    <div class="services-grid__cost">
+      <div class="services-grid__label">Where You Are Losing</div>
+      <ul>
+        <li>Copy-Paste Between Apps</li>
+        <li>Staff as Human Middleware</li>
+        <li>Broken Integrations</li>
+        <li>$40k/yr in Wasted Labor</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 </div>
