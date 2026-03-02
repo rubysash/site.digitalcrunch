@@ -1,0 +1,161 @@
+{{- /*
+    extend-head-uncached.html
+    Page-specific JSON-LD schema markup.
+    Runs on every page with full page context.
+    Blowfish's schema.html already handles Article, WebSite, and BreadcrumbList.
+    This partial adds: Organization, ProfessionalService, Service, FAQPage.
+
+    NOTE: All template expressions inside <script> tags use safeJS to prevent
+    Hugo's JS context escaping (which turns / into \/ and + into \u002b).
+*/ -}}
+
+{{- $baseURL := site.BaseURL | strings.TrimSuffix "/" -}}
+{{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "{{ printf "%s/#organization" $baseURL | safeJS }}",
+  "name": "Digital Crunch",
+  "url": "{{ $baseURL | safeJS }}",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{ printf "%s/img/dc_logo.png" $baseURL | safeJS }}"
+  },
+  "sameAs": [
+    "https://linkedin.com/in/digitalcrunch",
+    "https://twitter.com/frazemarketing",
+    "https://instagram.com/frazemarketing",
+    "https://github.com/rubysash"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "{{ printf "%s/#profservice" $baseURL | safeJS }}",
+  "name": "Digital Crunch",
+  "url": "{{ $baseURL | safeJS }}",
+  "telephone": "+1-945-245-4257",
+  "email": "james@jamesfraze.com",
+  "image": "{{ printf "%s/img/dc_logo.png" $baseURL | safeJS }}",
+  "priceRange": "$$",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2042 Quail Run Rd",
+    "addressLocality": "Wylie",
+    "addressRegion": "TX",
+    "postalCode": "75098",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "09:00",
+      "closes": "17:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "08:00",
+      "closes": "13:00"
+    }
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "James Fraze",
+    "url": "https://jamesfraze.com",
+    "jobTitle": "Cybersecurity Engineer"
+  }
+}
+</script>
+
+{{- else if and (in .RelPermalink "/services/") (ne .RelPermalink "/services/") -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ .Title | safeJS }}",
+  "description": "{{ .Description | safeJS }}",
+  "url": "{{ .Permalink | safeJS }}",
+  "provider": {
+    "@type": "Organization",
+    "@id": "{{ printf "%s/#organization" $baseURL | safeJS }}",
+    "name": "Digital Crunch"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  }{{ if not .Lastmod.IsZero }},
+  "dateModified": "{{ .Lastmod.Format $iso8601 | safeJS }}"{{ end }}{{ with .Params.schema }}{{ with .serviceType }},
+  "serviceType": "{{ . | safeJS }}"{{ end }}{{ with .priceRange }},
+  "priceRange": "{{ . | safeJS }}"{{ end }}{{ end }}
+}
+</script>
+
+{{- else if in .RelPermalink "/quick-faqs/" -}}
+{{- $content := .RawContent -}}
+{{- $parts := split $content "####" -}}
+{{- $questions := slice -}}
+{{- range $i, $part := $parts -}}
+  {{- if gt $i 0 -}}
+    {{- $lines := split $part "\n" -}}
+    {{- $question := "" -}}
+    {{- $answer := "" -}}
+    {{- $foundBlank := false -}}
+    {{- range $j, $line := $lines -}}
+      {{- $trimmed := trim $line " \r" -}}
+      {{- if and (not $foundBlank) (eq $j 0) -}}
+        {{- $question = trim $trimmed " \r\n" -}}
+      {{- else if and (not $foundBlank) (eq $trimmed "") -}}
+        {{- $foundBlank = true -}}
+      {{- else if $foundBlank -}}
+        {{- if ne $trimmed "" -}}
+          {{- /* Strip markdown formatting: bold, italic, links, list markers */ -}}
+          {{- $clean := $trimmed | replaceRE `\*\*([^*]+)\*\*` "$1" | replaceRE `\*([^*]+)\*` "$1" | replaceRE `\[([^\]]+)\]\([^)]+\)` "$1" | replaceRE `^- ` "" -}}
+          {{- if eq $answer "" -}}
+            {{- $answer = $clean -}}
+          {{- else -}}
+            {{- $answer = printf "%s %s" $answer $clean -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if and (ne $question "") (ne $answer "") -}}
+      {{- $questions = $questions | append (dict "q" $question "a" $answer) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if gt (len $questions) 0 -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "{{ .Title | safeJS }}",
+  "description": "{{ .Description | safeJS }}",
+  "url": "{{ .Permalink | safeJS }}",
+  "mainEntity": [
+    {{- range $i, $qa := $questions }}{{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": "{{ $qa.q | safeJS }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $qa.a | safeJS }}"
+      }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end -}}
+
+{{- end -}}
