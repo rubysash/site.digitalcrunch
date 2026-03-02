@@ -17,7 +17,7 @@ const DNS_TIMEOUT_MS = 5000;
 const SERVICES = [
   // Column 1
   { id:'retell', name:'Retell AI',    desc:'Voice AI Agents · Phone',            url:'https://status.retellai.com',        api:'/api/status/retell',      color:'#0ea5e9', icon:'RTL', col:1 },
-  { id:'anth',   name:'Anthropic',    desc:'Claude AI Models · API',             url:'https://status.anthropic.com',       api:'/api/status/anthropic',   color:'#d97706', icon:'ANT', col:1 },
+  { id:'anth',   name:'Anthropic',    desc:'Claude AI Models · API',             url:'https://status.claude.com',          api:'/api/status/anthropic',   color:'#d97706', icon:'ANT', col:1 },
   { id:'deepgram',name:'Deepgram',    desc:'Speech-to-Text · STT Engine',        url:'https://status.deepgram.com',        api:'/api/status/deepgram',    color:'#13b886', icon:'DG',  col:1 },
   { id:'gcp',    name:'Google Cloud', desc:'Gemini AI · GCP Infrastructure',     url:'https://status.cloud.google.com',    api:'/api/status/gcp',         color:'#4285f4', icon:'GCP', col:1, isGoogle:true },
   { id:'sendgrid',name:'SendGrid',    desc:'Email Delivery · Transactional Mail',url:'https://status.sendgrid.com',        api:'/api/status/sendgrid',    color:'#1a82e2', icon:'SG',  col:1 },
