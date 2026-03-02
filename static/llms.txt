@@ -20,7 +20,8 @@
 - [AI Reputation Management](https://digitalcrunch.com/services/ai-reputation/): Automated review campaigns via SMS and email, AI review response, dead lead reactivation through GHL automation.
 - [Schema Validation & AEO](https://digitalcrunch.com/services/schema-validation/): JSON-LD implementation, schema drift auditing, llms.txt configuration, ADA compliance review. AEO Certified.
 - [AI System Security](https://digitalcrunch.com/services/ai-security/): Prompt injection hardening, data leakage prevention, hallucination guardrails, compliance documentation for customer-facing AI.
-- [Custom Automation](https://digitalcrunch.com/services/custom-automation/): Custom workflow builds using n8n, Make, Zapier, Python, Bash, Perl, Docker, Azure Functions, AWS Lambda, Google Sheets, and Apify. API integrations, serverless functions, data pipelines, and system-to-system wiring.
+- [AI Automation](https://digitalcrunch.com/services/ai-automation/): Intelligent workflow automation where AI reads, classifies, decides, and acts on business data. Lead scoring, document processing, review response, email triage, data enrichment, and content generation with guardrails and confidence scoring.
+- [Custom Automation](https://digitalcrunch.com/services/custom-automation/): System-to-system wiring using n8n, Make, Zapier, Python, Bash, Perl, Docker, Azure Functions, AWS Lambda, Google Sheets, and Apify. API integrations, serverless functions, data sync, and scripting - no AI required.
 
 ## Technical Research
 - [Implement Schema in Hugo](https://digitalcrunch.com/research/schema/implement-schema-in-hugo/): Server-side JSON-LD delivery, entity linking, trust signals, FAQ schema for AI quotability.
@@ -44,7 +45,7 @@
 ## Technology Stack
 - **Voice AI**: Retell, VAPI
 - **CRM & Automation**: GoHighLevel
-- **LLM Backends**: OpenAI, Anthropic, Deepgram
+- **LLM Backends**: OpenAI, Anthropic, Deepgram, ElevenLabs
 - **Workflow Automation**: n8n, Make.com, Zapier
 - **Custom Code**: Python, Bash, Perl, Google Apps Script
 - **Serverless**: Azure Functions, AWS Lambda, Google Cloud Functions, Docker

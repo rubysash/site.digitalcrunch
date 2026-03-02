@@ -59,6 +59,12 @@
   weight = 112
 
 [[main]]
+  name = "AI Automation"
+  parent = "Services"
+  pageRef = "services/ai-automation"
+  weight = 113
+
+[[main]]
   name = "Custom Automation"
   parent = "Services"
   pageRef = "services/custom-automation"

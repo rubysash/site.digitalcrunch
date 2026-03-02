@@ -81,7 +81,7 @@ We pick the platform that fits your requirements. n8n when you need control and 
 
 When no-code platforms hit their limits, we write code.
 
-- **Python** - Data processing, API integrations, scraping, report generation, machine learning pipelines
+- **Python** - Data processing, API integrations, scraping, report generation, ETL pipelines
 - **Bash** - Server automation, cron jobs, deployment scripts, log processing, system monitoring
 - **Perl** - Text processing, regex-heavy data transformation, legacy system integration
 - **Google Apps Script** - Google Sheets automation, custom functions, form processing, Drive workflows
@@ -122,17 +122,11 @@ Lead fills out a form on any platform. Contact created in CRM. Tagged by source.
 **Appointment to Prep**
 Booking confirmed on calendar. Pre-appointment SMS sent to client. Internal prep checklist generated. Tech assigned. Route optimized.
 
-**Review to Response**
-New Google review detected. AI generates response draft. Positive reviews get auto-posted. Negative reviews get flagged for human review. CRM updated.
-
 **Report Generation**
 Pull data from CRM, ad platforms, and call tracking. Aggregate. Format. Email the report to the owner every Monday at 7am. No dashboards to check. No spreadsheets to build.
 
 **Inventory Sync**
 Product sold on one platform. Inventory updated across all platforms. Reorder triggered at threshold. Supplier notified automatically.
-
-**Lead Enrichment**
-New lead enters CRM. System pulls LinkedIn profile, company size, revenue estimate, and tech stack. Sales rep gets a briefing before the first call.
 
 ---
 
@@ -150,7 +144,6 @@ We have production experience connecting these platforms. This is not a complete
 | **Communication** | Twilio, Slack, Microsoft Teams, Discord |
 | **Storage** | Google Drive, Dropbox, S3, Azure Blob |
 | **Databases** | PostgreSQL, MySQL, MongoDB, Airtable, Google Sheets |
-| **AI** | OpenAI, Anthropic, Deepgram, ElevenLabs |
 | **Web** | Cloudflare, Netlify, WordPress, Shopify |
 
 ---
