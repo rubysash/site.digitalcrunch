@@ -9,7 +9,7 @@ heroStyle: background
 
 ## What is Schema?
 
-Schema is a type of formatted json data that AI and search engines like.    It is included in snippets in the header section of a page.   There are many types of schema, but we're going to use one example to explain.
+Schema is a type of formatted JSON data that AI and search engines like.    It is included in snippets in the header section of a page.   There are many types of schema, but we're going to use one example to explain.
 
 ## Schema Types
 
@@ -33,7 +33,7 @@ We use schema to signal to Google that we are indeed who we say we are. This tru
 
 ### All Pages
 
-You will likely have at least WebSite and ProfessionalService.   These are the predominate schema types on our site.   
+You will likely have at least WebSite and ProfessionalService.   These are the predominant schema types on our site.   
 
 - **ProfessionalService**: This is your Primary Entity. It defines Digital Crunch as an expert implementation firm in Wylie, TX. It includes your logo, location, and the sameAs links to your LinkedIn and GitHub. Note: ProfessionalService is a specific sub-type of Organization; using it establishes your niche more effectively than the generic Organization tag.
 
@@ -160,7 +160,7 @@ Wordpress has plugins, hugo uses "partials" which is basically a block of code t
 ### Add SameAs
 
 - Once you launch the GBP, add the link to your sameAs array in the schema. This creates the final link in the trust loop.
-- Add Any other new social feeds you make too, but only if they reinforce your expert implementation brand.
+- Add any other new social feeds you make too, but only if they reinforce your expert implementation brand.
 
 ## Testing Schema
 
@@ -196,7 +196,7 @@ In the head.html, program logic per type of page to keep your code DRY and avoid
 
 ## Weird Situations
 
-This is more backstory to explain exaclty how our schema is setup, and why. I only want to advertise "Digital Crunch" and do not want to advertise "Fraze Marketing", at least on the digitalcrunch.com domain it should be all about Digital Crunch.
+This is more backstory to explain exactly how our schema is set up, and why. I only want to advertise "Digital Crunch" and do not want to advertise "Fraze Marketing", at least on the digitalcrunch.com domain it should be all about Digital Crunch.
 
 We are keeping linkedIn and github because they are "me" (James Fraze) and displays engineering ability, which is what Digital Crunch is about. Google and AI engines can see my portfolio and work history essentially by linking like this.
 
@@ -214,7 +214,7 @@ I tried to start a marketing agency but nobody wants to hire a "marketer".  Hiri
 
 I rebranded and used an old domain that is 21 years old "digitalcrunch.com" in order to sell technology solutions.   It is my belief that these are all very good marketing bets, but I've found that customers are happier because they have a tangible result (even though it's a marketing tool).
 
-Both "fraze marketing" and "digital crunch" are still names for "James Fraze" as I am the company principle engineer. We debated on how should I utilize these assets:
+Both "fraze marketing" and "digital crunch" are still names for "James Fraze" as I am the company principal engineer. We debated on how should I utilize these assets:
 
 There is very little activity on them but about 2 years of account age as I spun up the marketing company:
 
@@ -227,7 +227,7 @@ The lesson in this - if you have multiple things you do/have done, AI search wan
 
 ## Next Steps
 
-Very few people in the world are actually certified as Answer Engine Optimization specialists.   We are!   If you'd like to book a consulation to update your site with valid schema, including llms.txt files please book directly on my calendar at https://jamesfraze.com   or call us and book through our AI receptionist:
+Very few people in the world are actually certified as Answer Engine Optimization specialists.   We are!   If you'd like to book a consultation to update your site with valid schema, including llms.txt files, please book directly on my calendar at https://jamesfraze.com   or call us and book through our AI receptionist:
 
 <a href="tel:+19452454257" class="cta-button">
   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -314,10 +314,10 @@ A: The `@id` property provides a unique, consistent URI for every entity (Organi
 A: Absolutely. To be an **ACE** (Authority, Confidence, Entity), you must build a "Content Knowledge Graph". Using `sameAs` schema to link your brand to trusted external entities (like Wikidata) and using nested `Service` schema signals to AI that you are the definitive source in your specific niche.
 
 ### Q: "Why should I bother with FAQ Schema if Google shows fewer snippets?"
-A: While visual "accordions" in search results may have decreased, **FAQPage Schema** is a high-priority type for AI visibility.It provides LLMs with "Quotable Assertions"—standalone, declarative data points they can easily extract and cite in AI-generated overviews.
+A: While visual "accordions" in search results may have decreased, **FAQPage Schema** is a high-priority type for AI visibility. It provides LLMs with "Quotable Assertions"—standalone, declarative data points they can easily extract and cite in AI-generated overviews.
 
 ### Q: "What is Schema Drift?"
-A: Schema Drift occurs when your structured data does not explicitly match the visible content on your page. AI considers this a data quality issue.If your JSON-LD claims a price or service that isn't on the page, the AI's "Confidence Score" in your brand drops, leading to lost visibility and citations.
+A: Schema Drift occurs when your structured data does not explicitly match the visible content on your page. AI considers this a data quality issue. If your JSON-LD claims a price or service that isn't on the page, the AI's "Confidence Score" in your brand drops, leading to lost visibility and citations.
 
 
 ## Checklist

@@ -51,7 +51,7 @@ Schema drift happens when your JSON-LD says one thing and your page says another
 
 #### Can schema markup get my business sued?
 
-Yes. Schema advertising pricing or services not actually available creates deceptive trade practices liability. If your schema says you offer a service at a specific price and you do not, that is legally actionable in most states. Incorrectly structured data can also interfere with screen readers, creating ADA compliance issues. Schema is not just technical SEO - it is a data accuracy and legal compliance concern.
+Yes. Schema that advertises pricing or services not actually available creates deceptive trade practices liability. If your schema says you offer a service at a specific price and you do not, that is legally actionable in most states. Incorrectly structured data can also interfere with screen readers, creating ADA compliance issues. Schema is not just technical SEO - it is a data accuracy and legal compliance concern.
 
 #### How do I know if my current schema is broken?
 

@@ -10,7 +10,7 @@ heroStyle: background
 
 ## Hey Siri
 
-If you ask Siri a question, it uses data from various locations.   One of those sources of truth is the llms.txt file.    If you ever want Siri to answer a question and include your brand as the answer, you need to setup this technical peice of data.
+If you ask Siri a question, it uses data from various locations.   One of those sources of truth is the llms.txt file.    If you ever want Siri to answer a question and include your brand as the answer, you need to set up this technical piece of data.
 
 ## What is llms.txt?
 
@@ -18,7 +18,7 @@ The `llms.txt` file is a non-standard, Markdown-formatted file located in the ro
 
 ## Answer Engine Optimization
 
-AEO or Answer Engine Optimization is the next variant of zero click searches.    Someone uses AI, ignores the website where the data came from and does whatever AI says.    This "Zero Click" search should lead back to you, or else you get no benefit from it.    Using an llm.txt file helps the boost the sites AEO.
+AEO, or Answer Engine Optimization, is the next variant of zero-click searches.    Someone uses AI, ignores the website where the data came from and does whatever AI says.    This "Zero Click" search should lead back to you, or else you get no benefit from it.    Using an llms.txt file helps boost the site's AEO.
 
 In the **BRAIN Framework**, `llms.txt` falls under the **Indexability (IN)** pillar. It facilitates **Retrieval-Augmented Generation (RAG)** by acting as a high-density information map that AI bots can use to pull live, accurate data for their responses.
 
@@ -91,7 +91,7 @@ Digital Crunch serves as an "ACE" (Authority, Confidence, Entity) in the followi
 
 ## Next Steps
 
-Very few people in the world are actually certified as Answer Engine Optimization specialists.   We are!   If you'd like to book a consulation to update your site with valid schema, including llms.txt files please book directly on my calendar at https://jamesfraze.com   or call us and book through our AI receptionist:
+Very few people in the world are actually certified as Answer Engine Optimization specialists.   We are!   If you'd like to book a consultation to update your site with valid schema, including llms.txt files, please book directly on my calendar at https://jamesfraze.com   or call us and book through our AI receptionist:
 
 <a href="tel:+19452454257" class="cta-button">
   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
