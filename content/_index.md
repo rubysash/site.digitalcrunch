@@ -6,7 +6,7 @@ description: "AI automation implementation for $1M-$5M businesses. Voice agents,
 # AI Automation Systems for Leads and Sales
 
 ## AI is liquidating legacy businesses that rely on <span style="color: var(--electric)">manual operations</span>. 
-## We build <span style="color: var(--electric)">automated sales engines</span> scale and never sleep.
+## We build <span style="color: var(--electric)">automated sales engines</span> that scale and never sleep.
 
 <div class="services-grid">
 
