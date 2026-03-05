@@ -7,46 +7,47 @@ description: "Your rights when using our site and related services"
 ## 1. Acceptance of Terms
 By accessing Digital Crunch, you agree to be bound by these Terms of Service and all applicable laws and regulations.
 
-## 2. AI Services & Technical Disclaimer
-Digital Crunch provides AI bots, Schema development, and business automations. 
-* **Experimental Nature:** AI outputs may occasionally be inaccurate. We provide these "as-is" for professional research and implementation.
-* **No Liability:** We are not responsible for any financial loss, data loss, or system downtime resulting from the implementation of our automations or code snippets.
-* **Professional Responsibility:** It is your responsibility to test all AI implementations in a sandbox environment before deploying to production.
+## 2. Services & Technical Disclaimer
+Digital Crunch provides automation, schema development, and related business services.
+* **As-Is Basis:** All outputs and deliverables are provided "as-is" for professional use.
+* **No Liability:** We are not responsible for any financial loss, data loss, or system downtime resulting from use of our services, automations, or code.
+* **Your Responsibility:** While we perform thorough testing and due diligence on all deliverables, you assume full responsibility for the use, deployment, and outcomes of any implementations in your environment. This includes any misuse, misrepresentation of information provided to us, or deliberate circumvention of safeguards we have put in place. We recommend testing all implementations in a safe environment before deploying to production.
 
 ## 3. Intellectual Property
-All content, custom AI logic, and the Digital Crunch logo are the property of James Fraze. You are granted a limited, non-exclusive license to use the code snippets provided for your internal business operations.
+All content, custom logic, and the Digital Crunch brand are the property of Digital Crunch. You are granted a limited, non-exclusive license to use deliverables provided for your internal business operations.
 
 ## 4. Prohibited Use
-You agree not to use our AI assets to:
+You agree not to use our services or assets to:
 * Generate malicious code or facilitate cyberattacks.
-* Attempt to reverse-engineer or "jailbreak" our proprietary AI prompts.
+* Reverse-engineer or extract our proprietary methods.
 * Harass or defraud third parties.
 
 ## 5. SMS/Text Messaging Terms
 By opting in to receive SMS/MMS messages from Digital Crunch, you agree to the following:
 
 ### Use Cases
-We may send you text messages for the following purposes:
-* **Appointment reminders** — confirmations, rescheduling, and follow-ups for booked consultations
-* **Service inquiry responses** — replies to questions submitted through our contact forms or AI chatbot
-* **Project updates** — status notifications related to active AI automation engagements
+We may send text messages for purposes including:
+* Appointment confirmations, rescheduling, and follow-ups
+* Responses to inquiries submitted through our forms or chatbot
+* Status updates related to active service engagements
+* Marketing and promotional communications about our services and offers
 
 ### Message Frequency
-Message frequency varies based on your interactions with us. Typically you will receive no more than 5 messages per month unless you are actively engaged in a service project.
+Message frequency varies.
 
 ### Message and Data Rates
-**Message and data rates may apply.** Your carrier's standard messaging and data rates will apply to any messages you send or receive. Digital Crunch is not responsible for any charges incurred through your mobile carrier.
+**Message and data rates may apply.** Standard carrier messaging and data rates apply to messages you send or receive. Digital Crunch is not responsible for charges from your mobile carrier.
 
 ### Opt-Out Instructions
-You can opt out of receiving text messages at any time by replying **STOP** to any SMS message from Digital Crunch. After you send STOP, you will receive a one-time confirmation message. No further messages will be sent unless you re-subscribe. You may also contact us directly to request removal from our messaging list.
+Reply **STOP** to any SMS from Digital Crunch to opt out. You will receive a one-time confirmation and no further messages unless you re-subscribe. You may also contact us directly to be removed.
 
-For help or questions about our SMS program, reply **HELP** to any message or contact us through our website.
+For help, reply **HELP** to any message or reach out through our website.
 
 ### Carrier Liability Disclaimer
-Digital Crunch and mobile carriers (including but not limited to T-Mobile, AT&T, Verizon, and others) are not liable for delayed or undelivered messages. Delivery of messages is subject to effective transmission by your carrier and network availability.
+Digital Crunch and mobile carriers are not liable for delayed or undelivered messages. Delivery is subject to carrier transmission and network availability.
 
 ### Age Restriction
-You must be 18 years of age or older to opt in to our SMS messaging program. By providing consent to receive text messages, you confirm that you are at least 18 years old.
+You must be 18 years of age or older to opt in to our SMS program. By consenting to receive texts, you confirm you are at least 18.
 
 ## 6. Limitation of Liability
 In no event shall Digital Crunch be liable for any damages arising out of the use or inability to use the materials on this website.
