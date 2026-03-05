@@ -8,6 +8,10 @@ draft: true
 
 - CSS for svg-tracer
 
+## TODO
+
+- **jamesfraze.com** — Stop using as a Calendly redirect. Build a real bio/landing page with Person schema + `sameAs` pointing back to digitalcrunch.com. This creates a bidirectional identity link (strongest signal for Google's Knowledge Graph). The digitalcrunch.com Person schema already points to jamesfraze.com as the founder URL and has `sameAs` for LinkedIn and GitHub.
+
 ## Stuff to Wrangle
 - ~~voice bot~~
 - ~~better 404~~
