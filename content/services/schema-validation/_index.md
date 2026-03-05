@@ -140,4 +140,4 @@ Most agencies optimize for Google. We optimize for every AI that is replacing Go
 
 **AEO Certified. Schema Engineered. AI Search Hardened.**
 
-[Book a Technical Discovery Call](https://jamesfraze.com)
+[Book a Technical Discovery Call](https://link.frazemarketing.com/widget/bookings/digitalcrunch)

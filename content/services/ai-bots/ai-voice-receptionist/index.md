@@ -64,7 +64,7 @@ Most AI bots feel "robotic" because of the lag. Our implementations are tuned fo
 
 If you wish, you can go ahead and book a schedule call too. Though you probably won't reach me directly, you can ask it transfer to me too.
 
-**[Scheduled calls](https://jamesfraze.com) (on my calendar) are the best way to reach me** if you call, the AI agent will attempt to put you on my calendar.
+**[Scheduled calls](https://link.frazemarketing.com/widget/bookings/digitalcrunch) (on my calendar) are the best way to reach me** if you call, the AI agent will attempt to put you on my calendar.
 
 ---
 
@@ -153,4 +153,4 @@ Most agencies just plug in a bot and hope for the best. We are led by a **Cybers
 
 **Led by a Cybersecurity Engineer. Built for Reliability. Tested for Results.**
 
-[Book a Technical Discovery Call](https://jamesfraze.com)
+[Book a Technical Discovery Call](https://link.frazemarketing.com/widget/bookings/digitalcrunch)

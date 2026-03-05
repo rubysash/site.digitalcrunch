@@ -227,7 +227,7 @@ The lesson in this - if you have multiple things you do/have done, AI search wan
 
 ## Next Steps
 
-Very few people in the world are actually certified as Answer Engine Optimization specialists.   We are!   If you'd like to book a consultation to update your site with valid schema, including llms.txt files, please book directly on my calendar at https://jamesfraze.com   or call us and book through our AI receptionist:
+Very few people in the world are actually certified as Answer Engine Optimization specialists.   We are!   If you'd like to book a consultation to update your site with valid schema, including llms.txt files, please book directly on my calendar at https://link.frazemarketing.com/widget/bookings/digitalcrunch   or call us and book through our AI receptionist:
 
 <a href="tel:+19452454257" class="cta-button">
   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

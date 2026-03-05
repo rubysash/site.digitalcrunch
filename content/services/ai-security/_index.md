@@ -155,4 +155,4 @@ Security is not a feature we added. It is why we exist.
 
 **Hardened AI. Documented Governance. Engineered Accountability.**
 
-[Book a Technical Discovery Call](https://jamesfraze.com)
+[Book a Technical Discovery Call](https://link.frazemarketing.com/widget/bookings/digitalcrunch)

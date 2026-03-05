@@ -172,4 +172,4 @@ You built the business. You do the work. Let us build the system that makes sure
 
 **Led by a Cybersecurity Engineer. Built on GHL Automation. Engineered to Compound.**
 
-[Book a Technical Discovery Call](https://jamesfraze.com)
+[Book a Technical Discovery Call](https://link.frazemarketing.com/widget/bookings/digitalcrunch)

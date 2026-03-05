@@ -144,4 +144,4 @@ You built your business to grow. Let us build the pipeline engine that makes it 
 
 Led by a Cybersecurity Engineer. Built on Proven Sales Frameworks. Engineered to Convert.
 
-[Book a Technical Discovery Call](https://jamesfraze.com)
+[Book a Technical Discovery Call](https://link.frazemarketing.com/widget/bookings/digitalcrunch)
