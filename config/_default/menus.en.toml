@@ -35,7 +35,7 @@
   weight = 105
 
 [[main]]
-  name = "AI Lead Generation"
+  name = "AI Lead Nurturing"
   parent = "Services"
   pageRef = "services/ai-lead-generation"
   weight = 107

@@ -1,5 +1,5 @@
 ---
-title: "AI Lead Generation"
+title: "AI Lead Nurturing"
 date: 2026-02-15
 description: "Outbound AI agents that send emails and social DMs trained on proven sales frameworks. Your competitors are already automating their pipeline."
 layout: "full"

@@ -1,0 +1,91 @@
+---
+title: "Onboarding"
+description: "Get started with Digital Crunch — complete your onboarding form and learn what to expect."
+layout: "simple"
+showTableOfContents: false
+---
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+
+<!-- LEFT COLUMN: Info -->
+<div>
+
+---
+
+## General Info
+
+### Pricing
+
+We charge a setup fee for configuring your system. In addition to our fee, we pass other fees directly to you related to A2P verification, AI token usage, etc.
+
+### Ownership
+
+Assets we create for you, belong to you. You are paying for our setup and configuration services only.
+
+### Onboarding Process
+
+**You do:**
+- Complete this quick form (basic account creation)
+- Complete part 2 when we send it (billing, etc)
+- Join a short interview so we can train your bot
+
+**We do:**
+- Create your account and send your access information
+- Setup your SMS/number approval and compliance items
+- Test everything end-to-end and launch
+
+**Then:**
+- We meet briefly to review setup and next steps
+- We do regular check-ins to review metrics and improvements
+
+---
+
+## Timeline Expectations
+
+**Account Creation**
+Takes about 24 hours depending on when information is received.
+
+**Billing Details**
+Form doesn't collect billing details; secured login provided separately.
+
+**Social Details**
+Information gathered as needed rather than during onboarding.
+
+**A2P DLC Compliance/Approvals**
+Takes 5-15 days for approval.
+
+**Interview**
+Training process to establish bot knowledge base and voice receptionist setup.
+
+**Testing/Tuning**
+Approximately 4 weeks of monitored bot refinement.
+
+</div>
+
+<!-- RIGHT COLUMN: Form Placeholder -->
+<div>
+
+<!-- REPLACE THIS WITH YOUR FORM EMBED -->
+<iframe
+    src="https://link.frazemarketing.com/widget/form/Vw9Sh4ljcWcPq5a1L0yN"
+    style="width:100%;height:100%;border:none;border-radius:3px"
+    id="inline-Vw9Sh4ljcWcPq5a1L0yN" 
+    data-layout="{'id':'INLINE'}"
+    data-trigger-type="alwaysShow"
+    data-trigger-value=""
+    data-activation-type="alwaysActivated"
+    data-activation-value=""
+    data-deactivation-type="neverDeactivate"
+    data-deactivation-value=""
+    data-form-name="Digital Crunch Onboarding"
+    data-height="1706"
+    data-layout-iframe-id="inline-Vw9Sh4ljcWcPq5a1L0yN"
+    data-form-id="Vw9Sh4ljcWcPq5a1L0yN"
+    title="Digital Crunch Onboarding"
+        >
+</iframe>
+<script src="https://link.frazemarketing.com/js/form_embed.js"></script>
+
+</div>
+
+</div>
