@@ -36,6 +36,9 @@ We collect opt-in consent when you provide your phone number through our website
 ### Opt-Out
 Reply **STOP** to any message to opt out. You will receive a one-time confirmation and no further texts unless you re-subscribe.
 
+### Mobile Information Sharing
+We do not sell, rent, or share your mobile phone number or any information collected via SMS/text messaging with third parties for their own marketing or promotional purposes.  We do use this opted in information for our own follow ups and promotions though.
+
 ### Consent Data
 We do not sell or rent your SMS opt-in data or consent information. We may share information with service providers who assist us in delivering messages and operating our business.
 
