@@ -55,7 +55,7 @@ The businesses dominating your local map pack are not getting more reviews becau
 
 After every job, their system fires an SMS. Then an email. Then a follow-up. No human remembers to do it. No one has to. The request goes out within minutes of invoice close, when the customer is still impressed.
 
-You finish a job. Your tech drives to the next call. Nobody asks. The 5-star review that would have taken 30 seconds to leave never happens. Your competitor with 247 reviews owns the local pack. You sit at 38.
+You just finished a job. Your tech drives to the next call. Nobody asks. The 5-star review that would have taken 30 seconds to leave never happens. Your competitor with 247 reviews owns the local pack. You sit at 38.
 
 ---
 
